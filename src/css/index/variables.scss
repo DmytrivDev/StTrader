@@ -1,9 +1,21 @@
 body {
   /* Colors */
-  --cm: #100405;
-  --cb: #000;
   --cw: #fff;
+  --cb: #000;
+  --cb2: #100f22;
+
+  --cn: #242334;
+
+  --ce: #efefef;
+
+  --ch: #bdbdbd;
+
+  --cl: #0de3d6;
+
+  --cg: #00b67a;
+
+  --clb: linear-gradient(180deg, #242334 0%, #151427 100%);
 
   /* Fonts */
-  --ff: Arial, Helvetica, sans-serif;
+  --ff: "OpenSans", sans-serif;
 }

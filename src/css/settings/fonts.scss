@@ -1,43 +1,32 @@
-// @font-face {
-//   font-family: "Family";
-//   src:
-//     url("../../fonts/Regular/Family-Regular.eot") format("eot"),
-//     url("../../fonts/Regular/Family-Regular.woff2") format("woff2"),
-//     url("../../fonts/Regular/Family-Regular.ttf") format("truetype");
-//   font-display: swap;
-//   font-style: normal;
-//   font-weight: 400;
-// }
+@font-face {
+  font-family: "OpenSans";
+  src:
+    url("../../fonts/Regular/OpenSans-Regular.eot") format("eot"),
+    url("../../fonts/Regular/OpenSans-Regular.woff2") format("woff2"),
+    url("../../fonts/Regular/OpenSans-Regular.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
 
-// @font-face {
-//   font-family: "Family";
-//   src:
-//     url("../../fonts/Medium/Family-Medium.eot") format("eot"),
-//     url("../../fonts/Medium/Family-Medium.woff2") format("woff2"),
-//     url("../../fonts/Medium/Family-Medium.ttf") format("truetype");
-//   font-display: swap;
-//   font-style: normal;
-//   font-weight: 500;
-// }
+@font-face {
+  font-family: "OpenSans";
+  src:
+    url("../../fonts/SemiBold/OpenSans-SemiBold.eot") format("eot"),
+    url("../../fonts/SemiBold/OpenSans-SemiBold.woff2") format("woff2"),
+    url("../../fonts/SemiBold/OpenSans-SemiBold.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+}
 
-// @font-face {
-//   font-family: "Family";
-//   src:
-//     url("../../fonts/SemiBold/Family-SemiBold.eot") format("eot"),
-//     url("../../fonts/SemiBold/Family-SemiBold.woff2") format("woff2"),
-//     url("../../fonts/SemiBold/Family-SemiBold.ttf") format("truetype");
-//   font-display: swap;
-//   font-style: normal;
-//   font-weight: 600;
-// }
-
-// @font-face {
-//   font-family: "Family";
-//   src:
-//     url("../../fonts/Bold/Family-Bold.eot") format("eot"),
-//     url("../../fonts/Bold/Family-Bold.woff2") format("woff2"),
-//     url("../../fonts/Bold/Family-Bold.ttf") format("truetype");
-//   font-display: swap;
-//   font-style: normal;
-//   font-weight: 700;
-// }
+@font-face {
+  font-family: "OpenSans";
+  src:
+    url("../../fonts/Bold/OpenSans-Bold.eot") format("eot"),
+    url("../../fonts/Bold/OpenSans-Bold.woff2") format("woff2"),
+    url("../../fonts/Bold/OpenSans-Bold.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+}
