@@ -18,6 +18,7 @@
   "dependencies": {
     "@fluejs/noscroll": "^1.0.0",
     "@splidejs/splide": "^4.1.4",
+    "scroll-to-element": "^2.0.3",
     "accordion-js": "^3.3.4",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"

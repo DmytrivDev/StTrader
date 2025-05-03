@@ -1,6 +1,7 @@
 import './parts/lockscroll.js';
 import './parts/mobmenu.js';
 import './parts/modal.js';
+import './parts/scrollto.js';
 import './parts/accordion.js';
 import './parts/banner.js';
 import './parts/splidecust.js';

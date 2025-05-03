@@ -1,22 +1,170 @@
+.sec-white {
+  background-color: var(--cw);
+}
+
+.pdtb1 {
+  padding: 10rem 0;
+}
+.pdtb2 {
+  padding: 7.75rem 0;
+}
+
+.pdt1 {
+  padding-top: 10rem;
+}
+.pdt2 {
+  padding-top: 7.75rem;
+}
+
+.heading {
+  margin-bottom: 2.5rem;
+  &.col-gap {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem 0;
+  }
+  &.aic {
+    align-items: center;
+  }
+}
+
+.tl1,
+.tl2,
+.tl3,
+.tl4 {
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  &.cb {
+    color: var(--cb2);
+  }
+  &.tac {
+    text-align: center;
+  }
+  span {
+    color: var(--cl);
+  }
+}
+
+.tl1 {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 1.12;
+  text-transform: uppercase;
+}
+.tl2 {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+.tl3 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+.tl4 {
+  font-size: 1.5rem;
+  line-height: 1.33;
+}
+
+.txt1,
+.txt2,
+.txt3 {
+  &.ce {
+    color: var(--ce);
+  }
+  &.ch {
+    color: var(--ch);
+  }
+  &.tac {
+    text-align: center;
+  }
+}
+
+.txt1 {
+  font-size: 1.125rem;
+  line-height: 1.33;
+}
+.txt3 {
+  font-size: 0.875rem;
+  line-height: 1.42;
+}
+
 .btn-def {
-	flex-shrink: 0;
-	width: fit-content;
-	display: block;
-	text-align: center;
-	background-color: var(--cm);
-	color: var(--cw);
-	padding: 0.625rem 0.75rem;
-	transition: all 0.15s ease-in;
-	&:hover {
-	}
+  position: relative;
+  flex-shrink: 0;
+  width: fit-content;
+  display: block;
+  text-align: center;
+  background-color: var(--cl);
+  color: var(--cb2);
+  font-weight: 600;
+  line-height: 1.33;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.25rem rgba(13, 227, 214, 0.64);
+  transition: all 0.15s ease-in;
+
+  &.mini {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0.75rem 1.5rem;
+  }
+
+  &:hover {
+    box-shadow: 0 0 1rem rgba(13, 227, 214, 0.64);
+  }
 }
 
 @media screen and (max-width: 960px) {
-	.class {
-	}
+  .pdtb1 {
+    padding: 6rem 0;
+  }
+  .pdtb2 {
+    padding: 4rem 0;
+  }
+
+  .pdt1 {
+    padding-top: 6rem;
+  }
+  .pdt2 {
+    padding-top: 4rem;
+  }
+
+  .heading {
+    margin-bottom: 1.5rem;
+    &.col-gap {
+      gap: 1rem 0;
+    }
+  }
+
+  .tl1,
+  .tl2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+  }
+  .tl3 {
+    font-size: 1.75rem;
+    line-height: 1.1;
+  }
+  .tl4 {
+    font-size: 1.125rem;
+  }
+
+  .txt1,
+  .txt2 {
+    font-size: 0.875rem;
+    line-height: 1.42;
+  }
+
+  .btn-def {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0.75rem 1.5rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
-	.class {
-	}
 }
