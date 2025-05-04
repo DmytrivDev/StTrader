@@ -1,0 +1,57 @@
+.runline {
+  background-color: var(--cl);
+
+  .banner__carousell {
+    padding: 0.75rem 0;
+  }
+  .banner__list {
+    gap: 2rem;
+  }
+  .banner__box {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    h2,
+    h3,
+    h4 {
+      white-space: nowrap;
+      text-wrap: nowrap;
+      color: var(--cb2);
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1.33;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+    }
+  }
+}
+.runline__ico {
+  flex-shrink: 0;
+  width: 2rem;
+  img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .runline {
+    .banner__carousell {
+      padding: 0.5rem 0;
+    }
+    .banner__list {
+      gap: 1rem;
+    }
+    .banner__box {
+      gap: 1rem;
+      h2,
+      h3,
+      h4 {
+        font-size: 1rem;
+        line-height: 2;
+      }
+    }
+  }
+  .runline__ico {
+    width: 1.5rem;
+  }
+}

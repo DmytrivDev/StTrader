@@ -1,8 +1,4 @@
-.banner {
-  padding: 4rem 0;
-}
 .banner__carousell {
-  padding: 1rem 0;
   display: flex;
   align-items: center;
   width: 100%;
@@ -19,7 +15,7 @@
   justify-content: space-around;
   flex-wrap: nowrap;
   white-space: nowrap;
-  gap: 2rem;
+  gap: 0.75rem;
   min-width: 100%;
   will-change: transform;
 
@@ -70,8 +66,5 @@
         -webkit-animation-play-state: running !important;
       }
     }
-  }
-  .banner__list {
-    gap: 1rem;
   }
 }
