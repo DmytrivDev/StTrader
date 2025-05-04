@@ -235,21 +235,17 @@
 @media screen and (max-width: 960px) {
   .hero {
     padding: 2rem 0;
-    min-height: 62.625rem;
+    min-height: 37.625rem;
   }
   .hero__content {
     position: relative;
     z-index: 2;
     flex: 0 1 auto;
-    align-items: center;
-    max-width: 100%;
-    margin-bottom: 33rem;
+    max-width: 50%;
     .tl1 {
-      text-align: center;
       margin-bottom: 1rem;
     }
     .txt2 {
-      text-align: center;
       max-width: 100%;
       margin-bottom: 2rem;
     }
@@ -290,22 +286,17 @@
     width: 90rem;
   }
   .hero__planet {
-    bottom: -8.25rem;
+    bottom: -28.25rem;
     width: 56.0625rem;
   }
   .hero__ellipse {
-    bottom: -7.5rem;
+    bottom: -17.5rem;
     width: 58.6875rem;
     height: 37.5625rem;
     border-radius: 58.6875rem;
     opacity: 0.5;
   }
 
-  .widget {
-    left: 52%;
-    transform: translateX(-50%);
-    right: auto;
-  }
   .widget__tel {
     right: 3.125rem;
     bottom: 0.5625rem;
@@ -313,5 +304,33 @@
   .widget__slider {
     width: 20.5rem;
     padding-left: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    min-height: 62.625rem;
+  }
+  .hero__content {
+    max-width: 100%;
+    align-items: center;
+    margin-bottom: 33rem;
+    .tl1,
+    .txt2 {
+      text-align: center;
+    }
+  }
+
+  .hero__planet {
+    bottom: -8.25rem;
+  }
+  .hero__ellipse {
+    bottom: -7.5rem;
+  }
+
+  .widget {
+    left: 52%;
+    transform: translateX(-50%);
+    right: auto;
   }
 }
