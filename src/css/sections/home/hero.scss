@@ -273,6 +273,7 @@
   .hero__wrapp {
     height: calc(100% + 5rem);
     &::before {
+      min-height: 62.625rem;
       background: linear-gradient(
         180deg,
         rgba(16, 15, 34, 0) 0%,

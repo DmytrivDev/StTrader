@@ -1,8 +1,43 @@
 <div class="mobmenu">
   <div class="mobmenu__body">
     <div class="mobmenu__container">
-      <load src="partials/header/parts/navmenu.html" />
-      <load src="partials/header/parts/actions.html" />
+      <div class="mobmenu__panel">
+        <load src="partials/header/parts/navmenu.html" />
+
+        <button type="button" class="moblang__open">EN</button>
+      </div>
+
+      <div class="moblang">
+        <button type="button" class="moblang__close">Back</button>
+
+        <div class="moblang__list">
+          <ul class="sub-menu">
+            <li class="current-lang">
+              <a href="#">PL</a>
+            </li>
+            <li>
+              <a href="#">IT</a>
+            </li>
+            <li>
+              <a href="#">DE</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mobmenu__box">
+        <a href="#" class="btn-def mini">Get Started Now</a>
+        <p class="note">Registration takes <span>less than 1 min</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero__wrapp">
+    <div class="hero__space no-select">
+      <img src="./img/decor/space.png" alt="" />
+    </div>
+    <div class="hero__bg no-select">
+      <img src="./img/decor/bg_lg.jpg" alt="" />
     </div>
   </div>
 </div>
