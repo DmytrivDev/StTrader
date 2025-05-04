@@ -1,15 +1,22 @@
 import { initSlider } from './splidecust';
 
-// const elemSplide = document.querySelector('.elem');
-// if (elemSplide) {
-//   initSlider(elemSplide, {
-//     perPage: 2,
-//     breakpoints: {
-//       960: {},
-//       768: {},
-//     },
-//   });
-// }
+const widgetSplide = document.querySelector('.widget');
+if (widgetSplide) {
+  initSlider(widgetSplide, {
+    perPage: 1,
+    pagination: true,
+    gap: '2rem',
+    type: 'loop', // Зацикленный режим
+    autoplay: true, // Автопрокрутка
+    interval: 6000, // Интервал 3 секунды
+    speed: 1500,
+    easing: 'ease-in-out',
+    breakpoints: {
+      960: {},
+      768: {},
+    },
+  });
+}
 
 // const elemSplides = document.querySelectorAll('.elem');
 // elemSplides?.forEach(container => {
