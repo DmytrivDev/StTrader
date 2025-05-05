@@ -53,3 +53,18 @@ export function pauseVideo() {
   });
   activeVideo = null;
 }
+
+// <div class="media-box">
+//   <div class="video-box">
+//     <video poster="./img/content/review_1.jpg" preload="metadata">
+//       <source src="./img/media/mov-mp4.mp4" type="video/mp4" />
+//       <source src="./img/media/mov-webm.webm" type="video/webm" />
+//     </video>
+//   </div>
+
+//   <button type="button" class="video-play" aria-label="Video play">
+//     <span>
+//       <img src="./img/icons/play.svg" alt="" />
+//     </span>
+//   </button>
+// </div>

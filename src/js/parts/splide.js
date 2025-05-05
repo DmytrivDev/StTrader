@@ -29,34 +29,37 @@ if (widgetSplide) {
 //   });
 // });
 
-// let elemSliderInstance;
-// const elem = document.querySelector('.elem');
+let tradeSliderInstance;
+const trade = document.querySelector('.trade');
 
-// const elemInitSlider = () => {
-//   if (elem && !elemSliderInstance) {
-//     elemSliderInstance = initSlider(elem, {
-//       perPage: 2,
-//       breakpoints: {
-//         960: {},
-//         768: {},
-//       },
-//     });
-//   }
-// };
+const tradeInitSlider = () => {
+  if (trade && !tradeSliderInstance) {
+    tradeSliderInstance = initSlider(trade, {
+      perPage: 2,
+      pagination: true,
+      gap: '1rem',
+      breakpoints: {
+        768: {
+          perPage: 1,
+        },
+      },
+    });
+  }
+};
 
-// const destroySliders = () => {
-//   if (elemSliderInstance) {
-//     elemSliderInstance.destroy();
-//     elemSliderInstance = null;
-//   }
-// };
+const destroySliders = () => {
+  if (tradeSliderInstance) {
+    tradeSliderInstance.destroy();
+    tradeSliderInstance = null;
+  }
+};
 
-// const checkViewport = () => {
-//   initElemSlider();
-//   if (window.innerWidth > 960) {
-//     destroySliders();
-//   }
-// };
+const checkViewport = () => {
+  tradeInitSlider();
+  if (window.innerWidth > 960) {
+    destroySliders();
+  }
+};
 
-// window.addEventListener('resize', checkViewport);
-// document.addEventListener('DOMContentLoaded', checkViewport);
+window.addEventListener('resize', checkViewport);
+document.addEventListener('DOMContentLoaded', checkViewport);

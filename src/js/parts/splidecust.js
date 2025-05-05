@@ -97,22 +97,22 @@ export const initSlider = (container, options = {}) => {
 };
 
 // <section class="elem">
-//   <div class="splide">
-//     <div class="splide__track">
-//       <ul class="splide__list">
-//         <li class="splide__slide">
-//           <span class="current__slide">01</span>
-//           <span class="total__slide">01/02</span>
-//           <p>slide 1</p>
-//         </li>
-//         <li class="splide__slide">
-//           <span class="current__slide">02</span>
-//           <span class="total__slide">02/02</span>
-//           <p>slide 2</p>
-//         </li>
-//       </ul>
-//     </div>
-//   </div>
+  // <div class="splide">
+  //   <div class="splide__track">
+  //     <ul class="splide__list">
+  //       <li class="splide__slide">
+  //         <span class="current__slide">01</span>
+  //         <span class="total__slide">01/02</span>
+  //         <p>slide 1</p>
+  //       </li>
+  //       <li class="splide__slide">
+  //         <span class="current__slide">02</span>
+  //         <span class="total__slide">02/02</span>
+  //         <p>slide 2</p>
+  //       </li>
+  //     </ul>
+  //   </div>
+  // </div>
 
 //   <div class="arrows">
 //     <div class="arrows__body">

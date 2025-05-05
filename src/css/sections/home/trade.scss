@@ -1,0 +1,141 @@
+.trade {
+  .heading {
+    position: relative;
+    z-index: 5;
+    .tl2 {
+      max-width: 38.75rem;
+    }
+  }
+}
+.trade__body {
+  position: relative;
+}
+.trade__slider {
+  position: relative;
+  z-index: 5;
+  .splide__track {
+    overflow: visible;
+  }
+  .splide__list {
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+}
+
+.card-trade {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: calc((100% - 2 * 1.5rem) / 3);
+  border-radius: 1rem;
+  min-height: 16rem;
+  background: linear-gradient(180deg, #242334 0%, #151427 100%);
+
+  &:nth-child(4),
+  &:nth-child(5) {
+    max-width: calc((100% - 1 * 1.5rem) / 2);
+    .txt3 {
+      padding-right: 13.875rem;
+    }
+  }
+
+  .tl3 {
+    padding-right: 8.625rem;
+    margin-bottom: 6.25rem;
+  }
+  .txt3 {
+    margin-top: auto;
+  }
+}
+
+.trade__img {
+  position: absolute;
+  z-index: 2;
+  top: 3rem;
+  right: 1.5rem;
+  width: 8rem;
+  img {
+    width: 100%;
+  }
+}
+.trade__dec {
+  position: absolute;
+  z-index: 1;
+  top: 2rem;
+  right: 2rem;
+  width: 8rem;
+  img {
+    width: 100%;
+  }
+}
+
+.trade__vec1 {
+  position: absolute;
+  z-index: 1;
+  top: 10.125rem;
+  left: -11.125rem;
+  filter: blur(8rem);
+  width: 24.25rem;
+  img {
+    width: 100%;
+  }
+}
+.trade__vec2 {
+  position: absolute;
+  z-index: 1;
+  bottom: -34.9375rem;
+  right: -18.875rem;
+  filter: blur(8rem);
+  width: 24.2594rem;
+  transform: rotate(30deg);
+  img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .trade {
+    .heading {
+      .tl2 {
+        max-width: 100%;
+      }
+    }
+  }
+  .trade__slider {
+    .splide__list {
+      flex-wrap: nowrap;
+      gap: 0;
+    }
+  }
+
+  .card-trade {
+    padding: 1.5rem 1.5rem 1.3125rem 1.5rem;
+    max-width: 100%;
+    min-height: 14.0625rem;
+
+    &:nth-child(4),
+    &:nth-child(5) {
+      max-width: 100%;
+      .txt3 {
+        padding-right: 0;
+      }
+    }
+  }
+
+  .trade__img {
+    top: 2.25rem;
+    right: 1rem;
+  }
+  .trade__dec {
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 6.5rem;
+  }
+
+  .trade__vec1,
+  .trade__vec2 {
+    display: none;
+  }
+}

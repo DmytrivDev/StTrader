@@ -227,6 +227,7 @@
     background-color: var(--cw);
     opacity: 0.6;
     &.is-active {
+      background-color: var(--cw);
       transform: scale(1.3);
     }
   }
