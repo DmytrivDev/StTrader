@@ -108,6 +108,20 @@
     padding: 0.75rem 1.5rem;
   }
 
+  &.bg-trn {
+    color: var(--cw);
+    background-color: transparent;
+    border: 0.0625rem solid var(--cw);
+    padding: 0.9375rem 1.4375rem;
+    text-transform: none;
+    box-shadow: none;
+    &:hover {
+      box-shadow: none;
+      background-color: var(--cw);
+      color: var(--cb2);
+    }
+  }
+
   &:hover {
     box-shadow: 0 0 1rem rgba(13, 227, 214, 0.64);
   }
@@ -163,6 +177,12 @@
     font-size: 1rem;
     line-height: 1.5;
     padding: 0.75rem 1.5rem;
+
+    &.bg-trn {
+      padding: 0.6875rem 1.4375rem;
+      font-size: 1.125rem;
+      line-height: 1.33;
+    }
   }
 }
 

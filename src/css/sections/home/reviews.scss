@@ -1,0 +1,233 @@
+.reviews__heading {
+  position: relative;
+  padding-right: 39.375rem;
+  margin-bottom: 2.5rem;
+
+  .trustpilot {
+    position: absolute;
+    right: 0;
+    bottom: 2.25rem;
+  }
+}
+.reviews__head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem 0;
+}
+
+.reviews__wrapp {
+  .addMore {
+    display: none;
+  }
+}
+.reviews__cards {
+  column-count: 3;
+  column-gap: 1.5rem;
+}
+
+.card-review {
+  margin-top: 1.5rem;
+  break-inside: avoid-column;
+  padding: 1.5rem 1.5rem 1.375rem 1.5rem;
+  border-radius: 1rem;
+  background: linear-gradient(180deg, #242334 0%, #151427 100%);
+  transition: all 0.15s ease-in;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+.card-review__mess {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem 0;
+  padding-bottom: 2rem;
+  p {
+    border-radius: 1rem 1rem 1rem 0px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+  }
+}
+.card-review__user {
+  display: flex;
+  align-items: start;
+  gap: 0 0.75rem;
+  padding-top: 1rem;
+  border-top: 0.0625rem solid var(--cn2);
+}
+.card-review__ava {
+  overflow: hidden;
+  width: 3rem;
+  height: 3rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+.card-review__name {
+  letter-spacing: -0.02em;
+  h2,
+  h3,
+  h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-bottom: 0.25rem;
+  }
+  p {
+    display: flex;
+    align-items: center;
+    gap: 0 0.25rem;
+    color: var(--cl);
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.71;
+    &::before {
+      content: "";
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 1.5rem;
+      background-size: 1.5rem 1.5rem;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-image: var(--star);
+    }
+  }
+}
+
+.card-review__media {
+  position: relative;
+  overflow: hidden;
+  padding-top: 60.7%;
+  border-radius: 1rem 1rem 1rem 0;
+  margin-bottom: 1.1875rem;
+}
+.card-review__video {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+}
+.card-review__play {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    0deg,
+    rgba(16, 15, 34, 0.64) 0%,
+    rgba(16, 15, 34, 0.64) 100%
+  );
+  span {
+    width: 9.31%;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .reviews__heading {
+    padding-right: 0;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    .trustpilot {
+      position: relative;
+      right: auto;
+      bottom: auto;
+      margin-bottom: 1.25rem;
+    }
+  }
+  .reviews__head {
+    gap: 1rem 0;
+    & > * {
+      text-align: center;
+    }
+  }
+
+  .reviews__wrapp {
+    &.more-block {
+      .card-review {
+        &:nth-child(n + 4) {
+          display: none;
+          opacity: 0;
+          visibility: hidden;
+        }
+      }
+      &.isOpened {
+        .card-review {
+          &:nth-child(n + 4) {
+            display: block;
+            visibility: visible;
+          }
+        }
+      }
+      &.isAnim {
+        .card-review {
+          &:nth-child(n + 4) {
+            opacity: 1;
+          }
+        }
+      }
+    }
+    .addMore {
+      display: block;
+      margin: 1.75rem auto 0 auto;
+    }
+  }
+  .reviews__cards {
+    column-count: auto;
+    column-gap: normal;
+  }
+
+  .card-review {
+    margin-top: 1rem;
+    padding: 0.75rem 0.75rem 1.25rem 0.75rem;
+    border-radius: 0.75rem;
+  }
+  .card-review__mess {
+    gap: 0.5rem 0;
+    padding-bottom: 1.5rem;
+    p {
+      border-radius: 0.75rem 0.75rem 0.75rem 0px;
+      padding: 0.75rem;
+    }
+  }
+  .card-review__user {
+    padding-top: 0.75rem;
+  }
+  .card-review__ava {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .card-review__name {
+    h2,
+    h3,
+    h4 {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 0;
+    }
+  }
+
+  .card-review__media {
+    padding-top: 59%;
+    border-radius: 0.75rem 0.75rem 0.75rem 0;
+    margin-bottom: 1.5rem;
+  }
+}

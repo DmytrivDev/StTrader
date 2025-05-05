@@ -31,10 +31,14 @@
   display: flex;
   align-items: center;
   gap: 0 0.75rem;
+  transition: all 0.15s ease-in;
   p {
     font-size: 0.875rem;
     font-weight: 600;
     line-height: 1.42;
+  }
+  &:hover {
+    box-shadow: 0 0 1rem rgba(0, 182, 122, 0.64);
   }
 }
 .trustpilot__img {
@@ -62,8 +66,11 @@
       bottom: -0.125rem;
       font-size: 0.75rem;
       line-height: 1.33;
-      span {
+      & > span {
         font-size: 1.125rem;
+        span {
+          display: none;
+        }
       }
     }
   }
