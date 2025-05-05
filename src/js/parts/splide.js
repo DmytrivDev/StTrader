@@ -47,15 +47,38 @@ const tradeInitSlider = () => {
   }
 };
 
+let trustSliderInstance;
+const trust = document.querySelector('.trust');
+
+const trustInitSlider = () => {
+  if (trust && !trustSliderInstance) {
+    trustSliderInstance = initSlider(trust, {
+      perPage: 2,
+      pagination: true,
+      gap: '1rem',
+      breakpoints: {
+        768: {
+          perPage: 1,
+        },
+      },
+    });
+  }
+};
+
 const destroySliders = () => {
   if (tradeSliderInstance) {
     tradeSliderInstance.destroy();
     tradeSliderInstance = null;
   }
+  if (trustSliderInstance) {
+    trustSliderInstance.destroy();
+    trustSliderInstance = null;
+  }
 };
 
 const checkViewport = () => {
   tradeInitSlider();
+  trustInitSlider();
   if (window.innerWidth > 960) {
     destroySliders();
   }

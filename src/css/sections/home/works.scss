@@ -1,5 +1,6 @@
 .works {
   position: relative;
+  z-index: 10;
   overflow: hidden;
   background-color: var(--cn);
   min-height: 42.5rem;
