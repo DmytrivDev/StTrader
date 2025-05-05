@@ -1,15 +1,24 @@
 .wrapper {
   // ============== Accordion ==============
+  .accord {
+    counter-reset: list-counter;
+  }
   .ac {
+    position: relative;
     margin: 0;
     background-color: transparent;
     border: none;
     border-radius: 0;
+    counter-increment: list-counter;
     transition: all 0.15s ease-in;
 
+    &:before {
+      content: counter(list-counter, decimal-leading-zero);
+      position: absolute;
+    }
+
     .ac-trigger {
-      cursor: default;
-      padding: 0;
+      cursor: pointer;
       font: inherit;
       color: var(--cm);
       font-size: inherit;
@@ -19,37 +28,43 @@
       }
     }
     [class*="__head"] {
-      cursor: pointer;
       display: flex;
-      align-items: center;
+      align-items: start;
       justify-content: space-between;
       gap: 2rem;
       &::after {
         content: "";
         flex-shrink: 0;
-        width: 1rem;
-        height: 1rem;
-        background-size: 1rem 1rem;
+        width: 2rem;
+        height: 2rem;
+        background-size: 2rem 2rem;
         background-position: center center;
         background-repeat: no-repeat;
-        // background-image: var(--);
+        background-image: var(--plus);
+        transition: all 0.15s ease-in;
+      }
+      .tl4 {
         transition: all 0.15s ease-in;
       }
     }
-    [class*="__content"] {
-    }
     &.is-active {
+      &:before {
+        color: var(--cl);
+      }
       .ac-panel {
         opacity: 1;
       }
       [class*="__head"] {
+        .tl4 {
+          color: var(--cl);
+        }
         &::after {
-          transform: rotateX(180deg);
-          // background-image: var(--);
+          background-image: var(--minus);
         }
       }
     }
     .ac-panel {
+      cursor: default;
       opacity: 0;
       transition-property: height, visibility, opacity !important;
     }
@@ -86,5 +101,15 @@
 
 @media screen and (max-width: 960px) {
   .wrapper {
+    // ============== Accordion ==============
+    .ac {
+      [class*="__head"] {
+        &::after {
+          width: 1.5rem;
+          height: 1.5rem;
+          background-size: 1.5rem 1.5rem;
+        }
+      }
+    }
   }
 }

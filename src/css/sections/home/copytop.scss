@@ -4,6 +4,7 @@
   border-radius: 1.5rem;
   background-color: var(--cn);
   padding: 4.5rem 31.25rem 3.5rem 3.5rem;
+  min-height: 25.4375rem;
 }
 .copytop__content {
   position: relative;
@@ -53,7 +54,8 @@
 @media screen and (max-width: 960px) {
   .copytop__body {
     border-radius: 1rem;
-    padding: 2rem 50% 4rem 1.5rem;
+    padding: 2rem 50% 2rem 1.5rem;
+    min-height: 16.5rem;
   }
   .copytop__content {
     .tl2 {
@@ -86,5 +88,6 @@
 @media screen and (max-width: 768px) {
   .copytop__body {
     padding: 2rem 1.5rem 17.375rem 1.5rem;
+    min-height: auto;
   }
 }

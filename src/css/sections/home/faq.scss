@@ -1,0 +1,54 @@
+.faq__list {
+  border-top: 0.0625rem solid var(--cn2);
+  .ac {
+    border-bottom: 0.0625rem solid var(--cn2);
+    &:before {
+      top: 1.5rem;
+      left: 1rem;
+      color: var(--cc3);
+      font-size: 1.125rem;
+      font-weight: 600;
+      line-height: 1.33;
+      letter-spacing: -0.02em;
+      transition: all 0.15s ease-in;
+    }
+
+    .ac-trigger {
+      padding: 1.5rem 1rem 1.5rem 3.75rem;
+    }
+  }
+
+  .faq__content {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .faq {
+    .heading {
+      margin-bottom: 1.875rem;
+      align-items: start;
+      & > * {
+        text-align: start;
+      }
+    }
+  }
+
+  .faq__list {
+    .ac {
+      &:before {
+        top: 1rem;
+        left: 0;
+        font-size: 0.75rem;
+      }
+
+      .ac-trigger {
+        padding: 1rem 0 1rem 1.375rem;
+      }
+    }
+
+    .faq__content {
+      padding-top: 0.75rem;
+    }
+  }
+}
