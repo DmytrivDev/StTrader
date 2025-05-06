@@ -77,6 +77,15 @@
     width: 100%;
   }
 }
+[class*="__vec3"] {
+  position: absolute;
+  z-index: 1;
+  filter: blur(6.125rem);
+  width: 62.6875rem;
+  img {
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 960px) {
   .trustpilot {
