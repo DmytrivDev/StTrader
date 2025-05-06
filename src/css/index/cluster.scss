@@ -58,6 +58,26 @@
   }
 }
 
+[class*="__vec1"] {
+  position: absolute;
+  z-index: 1;
+  filter: blur(8rem);
+  width: 24.25rem;
+  img {
+    width: 100%;
+  }
+}
+[class*="__vec2"] {
+  position: absolute;
+  z-index: 1;
+  filter: blur(8rem);
+  width: 24.2594rem;
+  transform: rotate(30deg);
+  img {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .trustpilot {
     gap: 0 0.5rem;

@@ -1,15 +1,11 @@
-.trust {
-  .heading {
-    position: relative;
-    z-index: 5;
-  }
+.trust__wrapp {
+  position: relative;
 }
 .trust__body {
   position: relative;
+  z-index: 10;
 }
 .trust__slider {
-  position: relative;
-  z-index: 5;
   .splide__track {
     overflow: visible;
   }
@@ -111,27 +107,12 @@
 }
 
 .trust__vec1 {
-  position: absolute;
-  z-index: 1;
   top: -56.3125rem;
   left: -11.125rem;
-  filter: blur(8rem);
-  width: 24.25rem;
-  img {
-    width: 100%;
-  }
 }
 .trust__vec2 {
-  position: absolute;
-  z-index: 1;
   top: -33.1875rem;
   right: -18.8125rem;
-  filter: blur(8rem);
-  width: 24.2594rem;
-  transform: rotate(30deg);
-  img {
-    width: 100%;
-  }
 }
 
 @media screen and (max-width: 960px) {
