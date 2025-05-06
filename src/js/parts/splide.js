@@ -65,6 +65,24 @@ const trustInitSlider = () => {
   }
 };
 
+let growSliderInstance;
+const grow = document.querySelector('.grow');
+
+const growInitSlider = () => {
+  if (grow && !growSliderInstance) {
+    growSliderInstance = initSlider(grow, {
+      perPage: 2,
+      pagination: true,
+      gap: '1rem',
+      breakpoints: {
+        768: {
+          perPage: 1,
+        },
+      },
+    });
+  }
+};
+
 const destroySliders = () => {
   if (tradeSliderInstance) {
     tradeSliderInstance.destroy();
@@ -74,11 +92,16 @@ const destroySliders = () => {
     trustSliderInstance.destroy();
     trustSliderInstance = null;
   }
+  if (growSliderInstance) {
+    growSliderInstance.destroy();
+    growSliderInstance = null;
+  }
 };
 
 const checkViewport = () => {
   tradeInitSlider();
   trustInitSlider();
+  growInitSlider();
   if (window.innerWidth > 960) {
     destroySliders();
   }
