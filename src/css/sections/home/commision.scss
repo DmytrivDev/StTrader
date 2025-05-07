@@ -1,0 +1,141 @@
+.commision {
+  padding-top: 3.75rem;
+}
+.commision__body {
+  position: relative;
+  border-radius: 2.875rem;
+  background: linear-gradient(90deg, #4d45bd 0%, #37357a 100%), #4d45bd;
+  padding: 4.125rem 6.875rem 3.75rem 6.875rem;
+  overflow: hidden;
+}
+.commision__content {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.commision__heading {
+  margin-bottom: 2rem;
+}
+.commision__subtl {
+  color: var(--ch);
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+}
+.commision__tl {
+  text-align: center;
+  font-size: 4.9516rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.commision__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  width: 100%;
+  gap: 0.5938rem;
+}
+.commision__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: calc((100% - 3 * 0.5938rem) / 4);
+  p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+  }
+}
+.commision__img {
+  width: 9.25rem;
+  img {
+    width: 100%;
+  }
+}
+
+.commision__space {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 91.125rem;
+  opacity: 0.32;
+  mix-blend-mode: difference;
+  img {
+    width: 100%;
+  }
+}
+.commision__bg {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 90rem;
+  img {
+    width: 100%;
+  }
+}
+.commision__meteor {
+  position: absolute;
+  z-index: 4;
+  bottom: -7.5625rem;
+  left: 50%;
+  transform: translateX(-50%) rotate(-17.148deg);
+  opacity: 0.5;
+  mix-blend-mode: luminosity;
+  width: 94.0637rem;
+  img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .commision {
+    padding-top: 5rem;
+  }
+  .commision__body {
+    border-radius: 1.5rem;
+    padding: 4rem 0.3125rem;
+  }
+  .commision__heading {
+    margin-bottom: 1.25rem;
+  }
+  .commision__subtl {
+    font-size: 0.875rem;
+  }
+  .commision__tl {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+  .commision__list {
+    gap: 0.3125rem 1.875rem;
+  }
+  .commision__item {
+    max-width: calc((100% - 1 * 1.875rem) / 2);
+    p {
+      font-size: 1rem;
+    }
+  }
+  .commision__img {
+    margin-bottom: -0.625rem;
+  }
+
+  .commision__meteor {
+    bottom: 6.75rem;
+    transform: translateX(-22%) rotate(-27.179deg);
+    opacity: 0.2;
+    width: 53.6994rem;
+  }
+}
