@@ -18,17 +18,6 @@ if (widgetSplide) {
   });
 }
 
-// const elemSplides = document.querySelectorAll('.elem');
-// elemSplides?.forEach(container => {
-//   initSlider(container, {
-//     perPage: 2,
-//     breakpoints: {
-//       960: {},
-//       768: {},
-//     },
-//   });
-// });
-
 let tradeSliderInstance;
 const trade = document.querySelector('.trade');
 
