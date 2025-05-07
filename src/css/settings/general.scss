@@ -24,6 +24,9 @@ main,
 .main {
   flex: 1 1 auto;
   padding-bottom: 10rem;
+  &.noPd {
+    padding-bottom: 0 !important;
+  }
 }
 
 [class*="__container"] {

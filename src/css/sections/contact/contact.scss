@@ -1,0 +1,194 @@
+.contact {
+  position: relative;
+  z-index: 10;
+  padding: 4.375rem 0 9.1875rem 0;
+  min-height: 53rem;
+  display: flex;
+  flex-direction: column;
+}
+.contact__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+.contact__body {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex: 1 1 auto;
+}
+.contact__content {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  max-width: 34.375rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: 10;
+    bottom: -10.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 21.75rem;
+    background: linear-gradient(180deg, rgba(16, 15, 34, 0) 0%, #100f22 84.25%);
+  }
+
+  .tl1 {
+    margin-bottom: 1.375rem;
+  }
+}
+
+.contact__form {
+  position: relative;
+  z-index: 20;
+  border-radius: 1.5rem;
+  background-color: var(--cw);
+  width: 34.375rem;
+  min-height: 36.875rem;
+}
+
+.contact__graph1 {
+  position: absolute;
+  z-index: 1;
+  left: 0.25rem;
+  bottom: 13.9375rem;
+  width: 8.8125rem;
+  img {
+    width: 100%;
+  }
+}
+.contact__graph2 {
+  position: absolute;
+  z-index: 2;
+  left: 2.4375rem;
+  bottom: 6rem;
+  width: 8.6875rem;
+  img {
+    width: 100%;
+  }
+}
+.contact__graph3 {
+  position: absolute;
+  z-index: 2;
+  left: 27.125rem;
+  bottom: 11.625rem;
+  width: 10.375rem;
+  img {
+    width: 100%;
+  }
+}
+.contact__man {
+  position: absolute;
+  z-index: 5;
+  left: 1.75rem;
+  bottom: -9.1875rem;
+  width: 39.9375rem;
+  img {
+    width: 100%;
+  }
+}
+
+.contact__wrapp {
+  position: absolute;
+  overflow: hidden;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% + 5.3125rem);
+}
+.contact__space {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 120rem;
+  width: 100%;
+  height: 100%;
+  opacity: 0.32;
+  mix-blend-mode: difference;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .contact {
+    padding: 4rem 0 6rem 0;
+    min-height: auto;
+  }
+  .contact__body {
+    align-items: center;
+    justify-content: stretch;
+    flex-direction: column;
+  }
+  .contact__content {
+    position: relative;
+    padding-bottom: 19.25rem;
+    max-width: 100%;
+
+    &::before {
+      bottom: -10.5rem;
+      height: 22.25rem;
+    }
+
+    .tl1 {
+      text-align: center;
+      margin-bottom: 0.75rem;
+    }
+    .txt1 {
+      text-align: center;
+    }
+  }
+
+  .contact__form {
+    border-radius: 0.75rem;
+    width: 70%;
+    min-height: 38rem;
+  }
+
+  .contact__graph1 {
+    left: calc(50% - 5rem);
+    transform: translateX(-100%);
+    bottom: 11.375rem;
+    width: 5.75rem;
+  }
+  .contact__graph2 {
+    left: calc(50% - 3.6875rem);
+    transform: translateX(-100%);
+    bottom: 5.9375rem;
+    width: 5.625rem;
+  }
+  .contact__graph3 {
+    left: calc(50% + 4.75rem);
+    bottom: 11.375rem;
+    width: 6.1875rem;
+  }
+  .contact__man {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-40%);
+    width: 19.125rem;
+  }
+
+  .contact__wrapp {
+    height: calc(100% + 5rem);
+  }
+  .contact__space {
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact__form {
+    width: 100%;
+  }
+}
