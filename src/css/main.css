@@ -11,7 +11,6 @@
 @import url('./index/cluster.scss');
 
 /* General */
-@import url('./sections/general/modal.scss');
 @import url('./sections/general/banner.scss');
 @import url('./sections/general/cookies.scss');
 

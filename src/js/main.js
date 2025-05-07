@@ -1,7 +1,7 @@
 import './parts/lockscroll.js';
 import './parts/mobmenu.js';
 import './parts/moblang.js';
-import './parts/modal.js';
+import './parts/cookies.js';
 import './parts/scrollto.js';
 import './parts/videoplay.js';
 import './parts/addmore.js';

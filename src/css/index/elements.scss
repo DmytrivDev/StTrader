@@ -120,6 +120,17 @@
     padding: 0.9375rem 1.4375rem;
     text-transform: none;
     box-shadow: none;
+    &.mini {
+      padding: 0.6875rem 1.4375rem;
+    }
+    &.st-bl {
+      color: var(--cb2);
+      border-color: var(--cb2);
+      &:hover {
+        background-color: var(--cb2);
+        color: var(--cw);
+      }
+    }
     &:hover {
       box-shadow: none;
       background-color: var(--cw);
@@ -189,7 +200,4 @@
       line-height: 1.33;
     }
   }
-}
-
-@media screen and (max-width: 768px) {
 }
