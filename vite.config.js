@@ -8,7 +8,7 @@ export default defineConfig(({ command }) => {
   return {
     root: 'src',
 
-    base: '', // дозволяє використовувати шляхи типу /js/main.js і працює як локально, так і на Vercel
+    base: './', // дозволяє використовувати шляхи типу /js/main.js і працює як локально, так і на Vercel
 
     publicDir: '../public', // щоб lang/*.json підтягувались правильно
 
@@ -20,21 +20,10 @@ export default defineConfig(({ command }) => {
       outDir: '../dist',
       emptyOutDir: true,
       sourcemap: true,
-
+      assetsDir: '', // ⬅️ ось це — винесе assets у корінь, а не в assets/
       rollupOptions: {
-        input: globSync('./src/**/*.html'), // білд усіх .html, включно з pl/contact.html
-
-        preserveEntrySignatures: 'strict', // дозволяє зберегти ієрархію у dist/
-
-        output: {
-          manualChunks(id) {
-            if (id.includes('node_modules')) {
-              return 'vendor';
-            }
-          },
-          entryFileNames: chunkInfo =>
-            chunkInfo.name === 'commonHelpers' ? 'commonHelpers.js' : '[name].js',
-        },
+        input: globSync('./src/**/*.html'),
+        preserveEntrySignatures: 'strict',
       },
     },
 
