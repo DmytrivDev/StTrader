@@ -8,7 +8,7 @@ function getValueFromKey(obj, key) {
 
 async function loadTranslations(lang) {
   try {
-    const res = await fetch(`https://github.com/DmytrivDev/StTrader/tree/main/public/lang/${lang}.json`);
+    const res = await fetch(`https://github.com/DmytrivDev/StTrader/blob/main/public/lang/${lang}.json`);
     const translations = await res.json();
 
     document.querySelectorAll('[data-i18n]').forEach(el => {
