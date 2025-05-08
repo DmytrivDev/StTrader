@@ -1,6 +1,6 @@
 const banner = document.querySelectorAll('.banner__carousell');
 
-function initCalcSpeedCarse() {
+export function initCalcSpeedCarse() {
   banner?.forEach(carousel => {
     const carousellFirst = carousel.querySelector('.carseFirst');
     const carousellSecond = carousel.querySelector('.carseSecond');

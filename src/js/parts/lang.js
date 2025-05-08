@@ -1,3 +1,5 @@
+import { initCalcSpeedCarse } from './banner';
+
 const lang = document.documentElement.lang || 'en';
 
 function getValueFromKey(obj, key) {
@@ -24,6 +26,8 @@ async function loadTranslations(lang) {
         el.innerHTML = value;
       }
     });
+
+    initCalcSpeedCarse();
   } catch (err) {
     console.error(
       `Translation file for "${lang}" not found or failed to load.`,
