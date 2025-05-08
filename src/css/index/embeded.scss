@@ -1,6 +1,8 @@
 .embeded {
+  counter-reset: section;
   & > * {
-    margin-top: 1rem;
+    margin-top: 0.75rem;
+    color: var(--ch);
 
     &:first-child {
       margin-top: 0;
@@ -30,27 +32,40 @@
   h4,
   h5,
   h6 {
-    font-weight: 700;
+    color: var(--cw);
+    font-weight: 600;
   }
 
-  h1 {
-  }
+  h1,
   h2 {
+    position: relative;
+    counter-increment: section;
+    padding-left: 2.125rem;
+    &::before {
+      content: counter(section) ". ";
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    font-size: 2rem;
+    line-height: 1.25;
+    text-transform: uppercase;
+    margin: 3rem 0 1.5rem 0;
   }
-  h3 {
-  }
+  h3,
   h4 {
-  }
-  h5 {
-  }
-  h6 {
+    font-size: 1.75rem;
+    line-height: 1.25;
+    text-transform: uppercase;
+    margin: 2.625rem 0 1.25rem 0;
   }
 
   ul {
-    margin-left: 1rem;
+    margin-left: 0.875rem;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
       margin-left: 0.5rem;
       list-style: disc;
 
@@ -61,7 +76,7 @@
   }
 
   ol {
-    padding-left: 1rem;
+    padding-left: 1.25rem;
     margin-left: 0;
 
     li {
@@ -129,5 +144,31 @@
 
 @media screen and (max-width: 960px) {
   .embeded {
+    & > * {
+      font-size: 0.875rem;
+      line-height: 1.42;
+    }
+
+    h1,
+    h2 {
+      padding-left: 1.25rem;
+      font-size: 1.125rem;
+      line-height: 1.33;
+      margin: 3rem 0 1rem 0;
+    }
+    h3,
+    h4 {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin: 2.625rem 0 1rem 0;
+    }
+
+    ul {
+      margin-left: 0.75rem;
+    }
+
+    ol {
+      padding-left: 1rem;
+    }
   }
 }
