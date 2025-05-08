@@ -234,5 +234,10 @@
         "text": "We use cookies to personalize content, analyze traffic, and enhance your experience. You can manage your preferences or accept all to continue enjoying full functionality.",
         "functional": "<span>Accept</span> only functional",
         "all": "Accept All <span>Cookies</span>"
+    },
+    "mobmenu": {
+        "back": "Back",
+        "button": "Get Started Now",
+        "note": "Registration takes <span>less than 1 min</span>"
     }
 }

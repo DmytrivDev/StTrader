@@ -13,7 +13,7 @@ async function loadTranslations(lang) {
       const key = el.getAttribute('data-i18n');
       const value = getValueFromKey(translations, key);
       if (value !== null && value !== undefined) {
-        el.textContent = value;
+        el.innerHTML = value;
       }
     });
 
@@ -24,10 +24,38 @@ async function loadTranslations(lang) {
         el.innerHTML = value;
       }
     });
-
   } catch (err) {
-    console.error(`Translation file for "${lang}" not found or failed to load.`, err);
+    console.error(
+      `Translation file for "${lang}" not found or failed to load.`,
+      err
+    );
   }
 }
 
 loadTranslations(lang);
+
+document.addEventListener('DOMContentLoaded', () => {
+  const currentLang = document.documentElement.lang.toUpperCase();
+
+  const actionsLang = document.querySelector('.actions__lang > li > a');
+  if (actionsLang) {
+    actionsLang.textContent = currentLang;
+    document.querySelector('.moblang__open').textContent = currentLang;
+  }
+
+  const langLists = document.querySelectorAll('.sub-menu');
+
+  langLists.forEach(list => {
+    const items = list.querySelectorAll('li');
+
+    items.forEach(item => {
+      const langCode = item.textContent.trim().toUpperCase();
+
+      if (langCode === currentLang) {
+        item.classList.add('current-lang');
+      } else {
+        item.classList.remove('current-lang');
+      }
+    });
+  });
+});
