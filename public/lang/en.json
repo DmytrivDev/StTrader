@@ -1,0 +1,243 @@
+{
+    "runline": {
+        "item_1": "Easy-to-use trading platform for everyone",
+        "item_2": "Free account setup with low minimum deposit",
+        "item_3": "Trade global markets anytime, anywhere",
+        "item_4": "Fast withdrawals and secure payments"
+    },
+    "trade": {
+        "title": "WHAT CAN YOU TRADE WITH ST TRADER?",
+        "button": "Get Started Now",
+        "items": {
+            "stocks": {
+                "title": "Stocks",
+                "text": "Your funds are protected with Lloyd’s of London insurance coverage"
+            },
+            "indices": {
+                "title": "Indices",
+                "text": "Your funds are protected with Lloyd’s of London insurance coverage"
+            },
+            "etfs": {
+                "title": "ETFs",
+                "text": "Your funds are protected with Lloyd’s of London insurance coverage"
+            },
+            "commodities": {
+                "title": "Commodities",
+                "text": "Your funds are protected with Lloyd’s of London insurance coverage"
+            },
+            "energy": {
+                "title": "Energy Markets",
+                "text": "Your funds are protected with Lloyd’s of London insurance coverage"
+            }
+        }
+    },
+    "works": {
+        "title_html": "HOW IT WORKS IN <span>3 SIMPLE STEPS</span>",
+        "steps": {
+            "step1": "Create your free account",
+            "step2": "Make a deposit from € 250",
+            "step3": "Start trading your way"
+        }
+    },
+    "trust": {
+        "title": "WHY TRADERS TRUST ST TRADER",
+        "items": {
+            "item1": {
+                "title": "1700+ assets",
+                "text": "Trade global stocks, indices, metals, and more — all from one account"
+            },
+            "item2": {
+                "title": "$1 mln",
+                "text": "Your funds are protected with Lloyd’s of London insurance coverage"
+            },
+            "item3": {
+                "title": "100 000+",
+                "text": "Join a growing global community already trading with ST Trader"
+            },
+            "item4": {
+                "title": "Spreads 0.0",
+                "text": "Ultra-low spreads and a zero-commission account option for smarter trading"
+            }
+        }
+    },
+    "awarded": {
+        "title": "AWARDED FOR EXCELLENCE IN TRADING INNOVATION",
+        "items": {
+            "item1": {
+                "title": "Best Trading Experience",
+                "text": "Awarded by Global Business Outlook — 2024"
+            },
+            "item2": {
+                "title": "Best Mobile Trading Platform",
+                "text": "Awarded by Fintech Awards — 2023"
+            },
+            "item3": {
+                "title": "Fastest Growing Broker",
+                "text": "Awarded by World Finance — 2024"
+            },
+            "item4": {
+                "title": "Best New Trading Technology",
+                "text": "Awarded by Financial Innovation Awards — 2022"
+            }
+        }
+    },
+    "commision": {
+        "subtitle": "Lower costs. Higher potential.",
+        "title": "$0 commission",
+        "features": {
+            "feature1": "$0 commission",
+            "feature2": "Spreads from 0.0 pips",
+            "feature3": "1:500 high leverage",
+            "feature4": "No deposit fees"
+        }
+    },
+    "deposits": {
+        "title": "FAST AND SECURE DEPOSITS",
+        "text": "Top up your account instantly using trusted global payment methods"
+    },
+    "grow": {
+        "title": "WHAT CAN YOUR DEPOSIT GROW INTO?",
+        "button": "Try the Platform Demo",
+        "cards": {
+            "country_italy": "Italy",
+            "country_germany": "Germany",
+            "country_spain": "Spain",
+            "minday_20": "20 min/day",
+            "minday_30": "30 min/day",
+            "minday_50": "50 min/day",
+            "starting": "Starting Deposit",
+            "result": "30-Day Result",
+            "growth": "Growth"
+        }
+    },
+    "type": {
+        "title": "CHOOSE YOUR ACCOUNT TYPE",
+        "subtitle": "Two flexible account types tailored to your goals and trading habits",
+        "note": "Just sign up - <span>it’s free</span>",
+        "standard": {
+            "title": "STANDARD",
+            "button": "OPEN A STANDARD ACCOUNT NOW",
+            "features": {
+                "feature1": "Spreads starting from <b>1.0 pips</b>",
+                "feature2": "<b>Ultra-fast</b> Execution",
+                "feature3": "No <b>Dealing Desk</b>",
+                "feature4": "<b>Transparent Trading</b> Environment",
+                "feature5": "Negative Balance <b>Protection</b>",
+                "feature6": "<b>No commission</b> on trades (except indices)"
+            }
+        },
+        "ecn": {
+            "title": "ECN",
+            "button": "OPEN an ECN ACCOUNT NOW",
+            "features": {
+                "feature1": "Spreads starting from <b>0.0 pips</b>",
+                "feature2": "<b>Ultra-fast</b> Execution",
+                "feature3": "In-depth <b>Market Insights</b>",
+                "feature4": "<b>Transparent Trading</b> Environment",
+                "feature5": "Negative Balance <b>Protection</b>",
+                "feature6": "<b>Commission:</b> Yes"
+            }
+        }
+    },
+    "platforms": {
+        "title": "TRADE ON TRUSTED PLATFORMS",
+        "subtitle": "Access the markets from any device — fast, flexible, and beginner-friendly",
+        "features": {
+            "feature1": {
+                "title": "Mobile, desktop, and web",
+                "text": "Trade anytime, anywhere — from your phone, tablet, or PC"
+            },
+            "feature2": {
+                "title": "User-friendly interface",
+                "text": "Clean, intuitive layout with powerful features just a tap away"
+            },
+            "feature3": {
+                "title": "Advanced charts & one-click trading",
+                "text": "Track trends, analyze movements, and place trades in seconds"
+            }
+        }
+    },
+    "reviews": {
+        "title": "WHAT REAL USERS SAY ABOUT ST TRADER",
+        "subtitle": "Thousands of traders trust us — here’s why",
+        "rating": "<span>4.8<span>/5</span></span> (Based on 1 325 reviews)",
+        "show_more": "Show more",
+        "review1": {
+            "name": "Lucas T. (Germany)",
+            "text": "I started with €250 just to try it out. After 3 weeks, I had €412 on my balance — and I need to sit in front of charts all day."
+        },
+        "review2": {
+            "name": "Sofia M. (Spain)",
+            "text1": "I’ve tried a few platforms before, but this one finally clicked.",
+            "text2": "Clean design, fast deposits, and my first withdrawal of €180 came through in less than a day."
+        },
+        "review3": {
+            "name": "Daniel K. (Sweden)",
+            "text": "Was skeptical at first, but it turned out legit. I trade during lunch breaks, and already withdrew profits twice."
+        },
+        "review4": {
+            "name": "Mia S. (Austria)",
+            "text": "Really simple to start. The support team helped me understand leverage, and now I’m confident with every trade."
+        }
+    },
+    "faq": {
+        "title": "Frequently asked questions",
+        "subtitle": "New to trading? We’ve got answers",
+        "q1": "What is ST Trader and how does it work?",
+        "a1": "ST Trader is an online platform that gives you access to global markets. You can open an account, deposit funds, and start trading with tools designed for all levels of experience.",
+        "q2": "How much money do I need to begin?",
+        "a2": "You can open an account with as little as €50, but we recommend starting with at least €250 to take full advantage of the platform's features and tools.",
+        "q3": "Do I need to be an expert in trading?",
+        "a3": "Not at all. ST Trader is designed to be beginner-friendly, with simple interfaces and access to support and tutorials.",
+        "q4": "What can I trade on the platform?",
+        "a4": "You can trade stocks, indices, commodities, cryptocurrencies, and more — all from a single account.",
+        "q5": "Is ST Trader a safe and regulated platform?",
+        "a5": "Yes, your funds are protected, and we partner with regulated liquidity providers and insured payment processors.",
+        "q6": "How do I deposit money?",
+        "a6": "Deposits can be made instantly via credit card, bank transfer, or other trusted payment methods listed in your account area.",
+        "q7": "How quickly can I withdraw my profits?",
+        "a7": "Withdrawals are usually processed within 24 hours, depending on your payment method and verification status."
+    },
+    "copytop": {
+        "title": "Invest Smarter: Copy Top Traders Instantly",
+        "text": "ST Trader gives you access to the world’s most popular markets with low costs, fast execution, and no hidden fees",
+        "button": "Start Copy Trading"
+    },
+    "footer": {
+        "nav": {
+            "features": "Features",
+            "how": "How It Works",
+            "why": "Why ST Trader",
+            "testimonials": "Testimonials",
+            "faq": "FAQ"
+        },
+        "company_info": "The website is owned and operated by ST Trader Ltd, a company registered in St. Lucia as an International Business Company (IBC) under registration number 2023-00987. The company’s registered office is located at Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, LC01 401, Saint Lucia. Its operational address is Mariano Roque Alonso Street 1344, Asunción, 001005, Paraguay.",
+        "risk": {
+            "title": "Risk Warning:",
+            "text1": "Trading leveraged instruments such as derivatives carries a high level of risk and may not be suitable for all investors. You could lose all or part of your invested capital. Please ensure you fully understand the risks involved, consider your level of experience, investment goals, and, if necessary, seek independent financial advice before trading. Margin trading involves the possibility of both significant profits and significant losses.",
+            "text2": "Make sure to familiarize yourself with all related risks and take the appropriate steps to manage them effectively. For more information, please refer to our Risk Disclosure Notice."
+        },
+        "geo": {
+            "title": "Geographical Restrictions:",
+            "text": "The information on this website is not intended for residents of the following countries or territories: Afghanistan, Albania, Algeria, Angola, Australia, Bahrain, Bangladesh, Barbados, Belarus, Benin, Bhutan, Bosnia and Herzegovina, Botswana, Brazil, Burkina Faso, Burundi, Cambodia, Cameroon, Cape Verde, Central African Republic, Chad, China, Comoros, Democratic Republic of the Congo, Crimea region, Cuba, Djibouti, Egypt, Eritrea, Ethiopia, Fiji, Gabon, Ghana, Guinea, Haiti, Iran, Iraq, Jamaica, Jordan, Kenya, Kosovo, Kuwait, Laos, Lebanon, Liberia, Libya, North Macedonia, Madagascar, Malawi, Maldives, Mali, Morocco, Myanmar, Namibia, Nepal, Niger, Nigeria, North Korea, Northern Cyprus, Oman, Pakistan, Palau, Puerto Rico, Qatar, Russia, Rwanda, Somalia, Senegal, South Sudan, Sudan, Syria, Tanzania, Togo, Trinidad and Tobago, Tunisia, Tuvalu, United Kingdom, United States, Vanuatu, Vatican City, Yemen, Zambia, and Zimbabwe."
+        },
+        "legal_notice": "Use of this website and services is not intended for any person in any jurisdiction where such use would be contrary to local laws or regulations.",
+        "poster": {
+            "title": "Start Invest Smarter Today",
+            "button": "Get Started Now"
+        },
+        "copy": "ST Trader 2025",
+        "privacy": "Privacy Policy"
+    },
+    "cookies": {
+        "title": "We Value Your Privacy",
+        "text": "We use cookies to personalize content, analyze traffic, and enhance your experience. You can manage your preferences or accept all to continue enjoying full functionality.",
+        "functional": "<span>Accept</span> only functional",
+        "all": "Accept All <span>Cookies</span>"
+    },
+    "mobmenu": {
+        "back": "Back",
+        "button": "Get Started Now",
+        "note": "Registration takes <span>less than 1 min</span>"
+    }
+}

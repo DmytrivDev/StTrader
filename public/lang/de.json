@@ -1,0 +1,243 @@
+{
+    "runline": {
+        "item_1": "Benutzerfreundliche Handelsplattform für alle",
+        "item_2": "Kostenlose Kontoeröffnung mit niedrigem Mindestdepot",
+        "item_3": "Handeln Sie auf globalen Märkten jederzeit und überall",
+        "item_4": "Schnelle Auszahlungen und sichere Zahlungen"
+    },
+    "trade": {
+        "title": "WAS KÖNNEN SIE MIT ST TRADER HANDELN?",
+        "button": "Jetzt Starten",
+        "items": {
+            "stocks": {
+                "title": "Aktien",
+                "text": "Ihre Gelder sind durch die Versicherungsdeckung von Lloyd’s of London geschützt"
+            },
+            "indices": {
+                "title": "Indizes",
+                "text": "Ihre Gelder sind durch die Versicherungsdeckung von Lloyd’s of London geschützt"
+            },
+            "etfs": {
+                "title": "ETFs",
+                "text": "Ihre Gelder sind durch die Versicherungsdeckung von Lloyd’s of London geschützt"
+            },
+            "commodities": {
+                "title": "Rohstoffe",
+                "text": "Ihre Gelder sind durch die Versicherungsdeckung von Lloyd’s of London geschützt"
+            },
+            "energy": {
+                "title": "Energiemärkte",
+                "text": "Ihre Gelder sind durch die Versicherungsdeckung von Lloyd’s of London geschützt"
+            }
+        }
+    },
+    "works": {
+        "title_html": "WIE ES FUNKTIONIERT IN <span>3 EINFACHEN SCHRITTEN</span>",
+        "steps": {
+            "step1": "Erstellen Sie Ihr kostenloses Konto",
+            "step2": "Legen Sie ein Depot ab € 250 an",
+            "step3": "Beginnen Sie nach Ihrer Art zu handeln"
+        }
+    },
+    "trust": {
+        "title": "WARUM VERTRAUEN TRADER ST TRADER?",
+        "items": {
+            "item1": {
+                "title": "1700+ Assets",
+                "text": "Handeln Sie globale Aktien, Indizes, Metalle und mehr — alles von einem Konto"
+            },
+            "item2": {
+                "title": "$1 Mio",
+                "text": "Ihre Gelder sind durch die Versicherungsdeckung von Lloyd’s of London geschützt"
+            },
+            "item3": {
+                "title": "100 000+",
+                "text": "Tritt einer wachsenden globalen Gemeinschaft bei, die bereits mit ST Trader handelt"
+            },
+            "item4": {
+                "title": "Spreads 0.0",
+                "text": "Ultra-niedrige Spreads und eine Kontenoption ohne Provision für intelligenteres Handeln"
+            }
+        }
+    },
+    "awarded": {
+        "title": "PREISIERT FÜR EXZELLENZ IN TRADING-INNOVATION",
+        "items": {
+            "item1": {
+                "title": "Beste Handelserfahrung",
+                "text": "Preis von Global Business Outlook — 2024"
+            },
+            "item2": {
+                "title": "Beste Mobile Handelsplattform",
+                "text": "Preis von Fintech Awards — 2023"
+            },
+            "item3": {
+                "title": "Schnellst wachsender Broker",
+                "text": "Preis von World Finance — 2024"
+            },
+            "item4": {
+                "title": "Beste Neue Handelsstechnologie",
+                "text": "Preis von Financial Innovation Awards — 2022"
+            }
+        }
+    },
+    "commision": {
+        "subtitle": "Niedrigere Kosten. Höheres Potenzial.",
+        "title": "$0 Provision",
+        "features": {
+            "feature1": "$0 Provision",
+            "feature2": "Spreads ab 0.0 Pips",
+            "feature3": "Hohe Hebelwirkung 1:500",
+            "feature4": "Keine Einzahlungsgebühren"
+        }
+    },
+    "deposits": {
+        "title": "SCHNELLE UND SICHERE EINZAHLUNGEN",
+        "text": "Laden Sie Ihr Konto sofort mit vertrauenswürdigen globalen Zahlungsmethoden auf"
+    },
+    "grow": {
+        "title": "WAS KANN SICH AUS IHREM DEPOSIT ENTWICKELN?",
+        "button": "Probieren Sie die Plattform-Demo",
+        "cards": {
+            "country_italy": "Italien",
+            "country_germany": "Deutschland",
+            "country_spain": "Spanien",
+            "minday_20": "20 Min./Tag",
+            "minday_30": "30 Min./Tag",
+            "minday_50": "50 Min./Tag",
+            "starting": "Startdepot",
+            "result": "Ergebnis nach 30 Tagen",
+            "growth": "Wachstum"
+        }
+    },
+    "type": {
+        "title": "WÄHLEN SIE IHREN KONTOtyp",
+        "subtitle": "Zwei flexible Kontotypen, die auf Ihre Ziele und Handelsgewohnheiten abgestimmt sind",
+        "note": "Melden Sie sich einfach an - <span>es ist kostenlos</span>",
+        "standard": {
+            "title": "STANDARD",
+            "button": "ÖFFNEN SIE EINEN STANDARDKONTO JETZT",
+            "features": {
+                "feature1": "Spreads ab <b>1.0 Pips</b>",
+                "feature2": "<b>Ultra-schnelle</b> Ausführung",
+                "feature3": "Kein <b>Dealing Desk</b>",
+                "feature4": "<b>Transparente Handels</b> Umgebung",
+                "feature5": "Negativer Saldo <b>Schutz</b>",
+                "feature6": "<b>Keine Provision</b> auf Trades (außer Indizes)"
+            }
+        },
+        "ecn": {
+            "title": "ECN",
+            "button": "ÖFFNEN SIE EIN ECN-KONTO JETZT",
+            "features": {
+                "feature1": "Spreads ab <b>0.0 Pips</b>",
+                "feature2": "<b>Ultra-schnelle</b> Ausführung",
+                "feature3": "Tiefgehende <b>Marktanalysen</b>",
+                "feature4": "<b>Transparente Handels</b> Umgebung",
+                "feature5": "Negativer Saldo <b>Schutz</b>",
+                "feature6": "<b>Provision:</b> Ja"
+            }
+        }
+    },
+    "platforms": {
+        "title": "HANDELN SIE AUF VERTRAUENSWÜRDIGEN PLATTFORMEN",
+        "subtitle": "Greifen Sie von jedem Gerät auf die Märkte zu — schnell, flexibel und anfängerfreundlich",
+        "features": {
+            "feature1": {
+                "title": "Mobil, Desktop und Web",
+                "text": "Handeln Sie jederzeit und überall — von Ihrem Telefon, Tablet oder PC"
+            },
+            "feature2": {
+                "title": "Benutzerfreundliche Oberfläche",
+                "text": "Sauberes, intuitives Layout mit leistungsstarken Funktionen nur einen Klick entfernt"
+            },
+            "feature3": {
+                "title": "Erweiterte Charts & Ein-Klick-Handel",
+                "text": "Verfolgen Sie Trends, analysieren Sie Bewegungen und platzieren Sie Trades in Sekunden"
+            }
+        }
+    },
+    "reviews": {
+        "title": "WAS SAGEN ECHTE NUTZER ÜBER ST TRADER",
+        "subtitle": "Tausende von Tradern vertrauen uns — hier ist der Grund",
+        "rating": "<span>4.8<span>/5</span></span> (Basierend auf 1 325 Bewertungen)",
+        "show_more": "Mehr anzeigen",
+        "review1": {
+            "name": "Lucas T. (Deutschland)",
+            "text": "Ich habe mit €250 angefangen, nur um es auszuprobieren. Nach 3 Wochen hatte ich €412 auf meinem Konto — und ich muss nicht den ganzen Tag vor Charts sitzen."
+        },
+        "review2": {
+            "name": "Sofia M. (Spanien)",
+            "text1": "Ich habe zuvor einige Plattformen ausprobiert, aber diese hat endlich geklappt.",
+            "text2": "Klares Design, schnelle Einzahlungen, und meine erste Auszahlung von €180 kam in weniger als einem Tag durch."
+        },
+        "review3": {
+            "name": "Daniel K. (Schweden)",
+            "text": "War zunächst skeptisch, aber es hat sich als echt herausgestellt. Ich handele in den Mittagspausen und habe bereits zweimal Gewinne abgehoben."
+        },
+        "review4": {
+            "name": "Mia S. (Österreich)",
+            "text": "Wirklich einfach zu starten. Das Support-Team hat mir geholfen, die Hebelwirkung zu verstehen, und jetzt bin ich mit jedem Trade selbstbewusst."
+        }
+    },
+    "faq": {
+        "title": "Häufig gestellte Fragen",
+        "subtitle": "Neu im Handel? Wir haben Antworten",
+        "q1": "Was ist ST Trader und wie funktioniert es?",
+        "a1": "ST Trader ist eine Online-Plattform, die Ihnen Zugang zu globalen Märkten bietet. Sie können ein Konto eröffnen, Gelder einzahlen und mit Tools beginnen, die für alle Erfahrungsstufen entwickelt wurden.",
+        "q2": "Wie viel Geld brauche ich, um zu beginnen?",
+        "a2": "Sie können ein Konto mit so wenig wie €50 eröffnen, aber wir empfehlen, mit mindestens €250 zu starten, um die vollen Funktionen und Tools der Plattform zu nutzen.",
+        "q3": "Muss ich ein Experte im Handel sein?",
+        "a3": "Ganz und gar nicht. ST Trader ist so gestaltet, dass es anfängerfreundlich ist, mit einfachen Schnittstellen und Zugang zu Support und Tutorials.",
+        "q4": "Was kann ich auf der Plattform handeln?",
+        "a4": "Sie können Aktien, Indizes, Rohstoffe, Kryptowährungen und mehr handeln — alles von einem einzigen Konto.",
+        "q5": "Ist ST Trader eine sichere und regulierte Plattform?",
+        "a5": "Ja, Ihre Gelder sind geschützt, und wir arbeiten mit regulierten Liquiditätsanbietern und versicherten Zahlungsprozessoren zusammen.",
+        "q6": "Wie deponiere ich Geld?",
+        "a6": "Einzahlungen können sofort per Kreditkarte, Banküberweisung oder anderen vertrauenswürdigen Zahlungsmethoden erfolgen, die in Ihrem Kontobereich aufgeführt sind.",
+        "q7": "Wie schnell kann ich meine Gewinne abheben?",
+        "a7": "Auszahlungen werden in der Regel innerhalb von 24 Stunden bearbeitet, abhängig von Ihrer Zahlungsmethode und Verifizierungsstatus."
+    },
+    "copytop": {
+        "title": "Investieren Sie Schlauer: Kopieren Sie Top-Trader Sofort",
+        "text": "ST Trader gibt Ihnen Zugang zu den beliebtesten Märkten der Welt mit niedrigen Kosten, schneller Ausführung und keinen versteckten Gebühren",
+        "button": "Starten Sie das Copy-Trading"
+    },
+    "footer": {
+        "nav": {
+            "features": "Funktionen",
+            "how": "Wie es funktioniert",
+            "why": "Warum ST Trader",
+            "testimonials": "Bewertungen",
+            "faq": "FAQ"
+        },
+        "company_info": "Die Website wird von ST Trader Ltd betrieben und gehört dieser, einem Unternehmen, das in St. Lucia als International Business Company (IBC) unter der Registernummer 2023-00987 registriert ist. Das eingetragene Büro des Unternehmens befindet sich im Erdgeschoss, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, LC01 401, Saint Lucia. Die operative Adresse ist Mariano Roque Alonso Street 1344, Asunción, 001005, Paraguay.",
+        "risk": {
+            "title": "Risikowarnung:",
+            "text1": "Der Handel mit gehebelten Instrumenten wie Derivaten birgt ein hohes Risiko und ist möglicherweise nicht für alle Investoren geeignet. Sie könnten Ihren gesamten oder einen Teil Ihres investierten Kapitals verlieren. Bitte stellen Sie sicher, dass Sie die damit verbundenen Risiken vollständig verstehen, berücksichtigen Sie Ihr Erfahrungslevel, Ihre Anlageziele und, falls nötig, suchen Sie unabhängige finanzielle Beratung, bevor Sie handeln. Margin-Trading beinhaltet die Möglichkeit sowohl erheblicher Gewinne als auch erheblicher Verluste.",
+            "text2": "Stellen Sie sicher, dass Sie sich mit allen damit verbundenen Risiken vertraut machen und die entsprechenden Schritte unternehmen, um sie effektiv zu managen. Weitere Informationen finden Sie in unserem Risikohinweis."
+        },
+        "geo": {
+            "title": "Geografische Einschränkungen:",
+            "text": "Die Informationen auf dieser Website sind nicht für Einwohner der folgenden Länder oder Territorien gedacht: Afghanistan, Albanien, Algerien, Angola, Australien, Bahrain, Bangladesch, Barbados, Belarus, Benin, Bhutan, Bosnien und Herzegowina, Botswana, Brasilien, Burkina Faso, Burundi, Kambodscha, Kamerun, Kap Verde, Zentralafrikanische Republik, Tschad, China, Komoren, Demokratische Republik Kongo, Krim-Region, Kuba, Dschibuti, Ägypten, Eritrea, Äthiopien, Fidschi, Gabun, Ghana, Guinea, Haiti, Iran, Irak, Jamaika, Jordanien, Kenia, Kosovo, Kuwait, Laos, Libanon, Liberia, Libyen, Nordmazedonien, Madagaskar, Malawi, Malediven, Mali, Marokko, Myanmar, Namibia, Nepal, Niger, Nigeria, Nordkorea, Nordzypern, Oman, Pakistan, Palau, Puerto Rico, Katar, Russland, Ruanda, Somalia, Senegal, Südsudan, Sudan, Syrien, Tansania, Togo, Trinidad und Tobago, Tunesien, Tuvalu, Vereinigtes Königreich, Vereinigte Staaten, Vanuatu, Vatikanstadt, Jemen, Sambia und Simbabwe."
+        },
+        "legal_notice": "Die Nutzung dieser Website und der Dienstleistungen ist nicht für Personen in einer Jurisdiktion gedacht, in der eine solche Nutzung im Widerspruch zu lokalen Gesetzen oder Vorschriften stünde.",
+        "poster": {
+            "title": "Starten Sie Heute Mit Intelligenter Investition",
+            "button": "Jetzt Starten"
+        },
+        "copy": "ST Trader 2025",
+        "privacy": "Datenschutzrichtlinie"
+    },
+    "cookies": {
+        "title": "Wir Schätzen Ihre Privatsphäre",
+        "text": "Wir verwenden Cookies, um Inhalte zu personalisieren, Traffic zu analysieren und Ihr Erlebnis zu verbessern. Sie können Ihre Präferenzen verwalten oder alle akzeptieren, um die volle Funktionalität weiterhin zu genießen.",
+        "functional": "<span>Akzeptieren</span> nur Funktionale",
+        "all": "Alle <span>Cookies</span> Akzeptieren"
+    },
+    "mobmenu": {
+        "back": "Zurück",
+        "button": "Jetzt Starten",
+        "note": "Registrierung dauert <span>weniger als 1 Minute</span>"
+    }
+}
