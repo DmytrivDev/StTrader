@@ -8,8 +8,8 @@ if (widgetSplide) {
     gap: '2rem',
     type: 'loop', // Зацикленный режим
     autoplay: true, // Автопрокрутка
-    interval: 6000, // Интервал 3 секунды
-    speed: 1500,
+    interval: 3000, // Интервал 3 секунды
+    speed: 600,
     easing: 'ease-in-out',
     breakpoints: {
       960: {},
