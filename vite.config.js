@@ -10,11 +10,13 @@ export default defineConfig(({ command }) => {
       [command === 'serve' ? 'global' : '_global']: {},
     },
     root: 'src',
+    base: '',
     publicDir: '../public',
     build: {
       sourcemap: true,
       rollupOptions: {
-        input: globSync('./src/*.html'),
+        input: globSync('./src/**/*.html'),
+        preserveEntrySignatures: 'strict',
         output: {
           manualChunks(id) {
             if (id.includes('node_modules')) {
