@@ -174,7 +174,7 @@
   z-index: 2;
   width: 19.3125rem;
   border-radius: 0.75rem;
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: rgba(255, 255, 255, 0.7);
   margin-bottom: 0.5rem;
   padding-left: 1.75rem;
 
@@ -213,6 +213,7 @@
   }
   .splide__slide {
     p {
+      color: var(--cb);
       font-size: 0.875rem;
       line-height: 1.42;
     }
@@ -225,10 +226,10 @@
   .splide__pagination__page {
     width: 0.375rem;
     height: 0.375rem;
-    background-color: var(--cw);
+    background-color: var(--cb);
     opacity: 0.6;
     &.is-active {
-      background-color: var(--cw);
+      background-color: var(--cb);
       transform: scale(1.3);
     }
   }
