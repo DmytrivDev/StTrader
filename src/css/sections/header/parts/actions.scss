@@ -71,6 +71,7 @@
         border-radius: 1.5rem;
         border: 0.0625rem solid var(--cw);
         transition: all 0.15s ease-in;
+        background-color: var(--cb);
         a {
           padding: 0 1.4375rem;
           &:hover {

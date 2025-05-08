@@ -63,3 +63,48 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const fileName = window.location.pathname.split('/').pop(); // contact.html
+  const isIndex = fileName === 'index.html';
+  const isLangPage = /^[a-z]{2}\.html$/i.test(fileName); // pl.html, it.html etc.
+
+  if (isIndex || isLangPage) return;
+
+  const langLists = document.querySelectorAll('.sub-menu, .moblang__list .sub-menu');
+
+  langLists.forEach((list) => {
+    list.querySelectorAll('a').forEach((link) => {
+      const langCode = link.textContent.trim().toLowerCase();
+
+      if (langCode === 'en') {
+        link.setAttribute('href', `/${fileName}`);
+      } else {
+        link.setAttribute('href', `/${langCode}/${fileName}`);
+      }
+    });
+  });
+});
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const currentLang = document.documentElement.lang.toLowerCase();
+  if (currentLang === 'en') return;
+
+  const links = document.querySelectorAll('a[href^="/"]:not(.actions__lang a):not(.moblang__list a)');
+
+  links.forEach(link => {
+    const href = link.getAttribute('href');
+
+    // Якщо просто "/"
+    if (href === '/') {
+      link.setAttribute('href', `/${currentLang}.html`);
+    }
+
+    // Якщо веде на html-файл і не коренева сторінка
+    else if (href.endsWith('.html')) {
+      link.setAttribute('href', `/${currentLang}${href}`);
+    }
+  });
+});
