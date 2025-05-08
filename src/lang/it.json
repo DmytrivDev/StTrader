@@ -1,0 +1,34 @@
+{
+    "runline": {
+      "item_1": "Piattaforma di trading facile da usare per tutti",
+      "item_2": "Creazione gratuita dell'account con deposito minimo basso",
+      "item_3": "Scambia mercati globali in qualsiasi momento e ovunque",
+      "item_4": "Prelievi rapidi e pagamenti sicuri"
+    },
+    "trade": {
+      "title": "COSA PUOI TRADARE CON ST TRADER?",
+      "button": "Inizia ora",
+      "items": {
+        "stocks": {
+          "title": "Azioni",
+          "text": "I tuoi fondi sono protetti con copertura assicurativa di Lloyd’s di Londra"
+        },
+        "indices": {
+          "title": "Indici",
+          "text": "I tuoi fondi sono protetti con copertura assicurativa di Lloyd’s di Londra"
+        },
+        "etfs": {
+          "title": "ETF",
+          "text": "I tuoi fondi sono protetti con copertura assicurativa di Lloyd’s di Londra"
+        },
+        "commodities": {
+          "title": "Materie Prime",
+          "text": "I tuoi fondi sono protetti con copertura assicurativa di Lloyd’s di Londra"
+        },
+        "energy": {
+          "title": "Mercati Energetici",
+          "text": "I tuoi fondi sono protetti con copertura assicurativa di Lloyd’s di Londra"
+        }
+      }
+    }
+  }

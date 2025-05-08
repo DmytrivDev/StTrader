@@ -1,3 +1,4 @@
+import './parts/lang.js';
 import './parts/lockscroll.js';
 import './parts/mobmenu.js';
 import './parts/moblang.js';
