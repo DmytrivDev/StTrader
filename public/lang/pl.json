@@ -1,7 +1,7 @@
 {
     "runline": {
         "item_1": "Łatwa w użyciu platforma handlowa dla każdego",
-        "item_2": "Darmowe założenie konta z niskim minimalnym depozytem",
+        "item_2": "Bezpłatna konfiguracja konta z niskim minimalnym depozytem",
         "item_3": "Handluj na globalnych rynkach w dowolnym czasie i miejscu",
         "item_4": "Szybkie wypłaty i bezpieczne płatności"
     },
@@ -11,23 +11,23 @@
         "items": {
             "stocks": {
                 "title": "Akcje",
-                "text": "Inwestuj w akcje liderów z USA, Wielkiej Brytanii i UE – Apple, Tesla, Amazon i inne"
+                "text": "Handel akcjami głównych spółek z USA, Wielkiej Brytanii i UE, takich jak Apple, Tesla, Amazon i inne."
             },
             "indices": {
                 "title": "Indeksy",
-                "text": "Twoje środki są chronione przez ubezpieczenie Lloyd’s of London"
+                "text": "Śledź i handluj na głównych rynkach, takich jak S&P 500, NASDAQ, DAX i FTSE 100"."
             },
             "etfs": {
                 "title": "ETF-y",
-                "text": "Twoje środki są chronione przez ubezpieczenie Lloyd’s of London"
+                "text": "Zdywersyfikuj swój portfel za pomocą koszyków najlepszych aktywów."
             },
             "commodities": {
-                "title": "Towary",
-                "text": "Twoje środki są chronione przez ubezpieczenie Lloyd’s of London"
+                "title": "Surowce",
+                "text": "Uzyskaj dostęp do złota, ropy naftowej, srebra i innych surowców będących przedmiotem obrotu."
             },
             "energy": {
                 "title": "Rynki energetyczne",
-                "text": "Twoje środki są chronione przez ubezpieczenie Lloyd’s of London"
+                "text": "Podążaj za trendami na światowych rynkach energii, takich jak ropa naftowa i gaz ziemny."
             }
         }
     },
