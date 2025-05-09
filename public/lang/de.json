@@ -36,27 +36,27 @@
         "steps": {
             "step1": "Erstellen Sie Ihr kostenloses Konto",
             "step2": "Legen Sie ein Depot ab € 250 an",
-            "step3": "Beginnen Sie nach Ihrer Art zu handeln"
+            "step3": "Mit dem Handel starten – ganz nach Ihrem Stil"
         }
     },
     "trust": {
-        "title": "WARUM VERTRAUEN TRADER ST TRADER?",
+        "title": "WARUM TRADER ST TRADER VERTRAUEN?",
         "items": {
             "item1": {
                 "title": "1700+ Assets",
-                "text": "Handeln Sie globale Aktien, Indizes, Metalle und mehr — alles von einem Konto"
+                "text": "Handeln Sie Aktien, Indizes, Metalle und mehr – alles über nur ein Konto"
             },
             "item2": {
                 "title": "$1 Mio",
-                "text": "Ihre Gelder sind durch die Versicherungsdeckung von Lloyd’s of London geschützt"
+                "text": "Ihr Kapital ist durch eine Versicherung bei Lloyd’s of London geschützt"
             },
             "item3": {
-                "title": "100 000+",
-                "text": "Tritt einer wachsenden globalen Gemeinschaft bei, die bereits mit ST Trader handelt"
+                "title": "Über 100.000 Trader",
+                "text": "Werden auch Sie Teil einer wachsenden globalen Trading-Community"
             },
             "item4": {
                 "title": "Spreads 0.0",
-                "text": "Ultra-niedrige Spreads und eine Kontenoption ohne Provision für intelligenteres Handeln"
+                "text": "Profitieren Sie von ultraniedrigen Spreads und einem provisionsfreien Konto für smarteres Trading"
             }
         }
     },
