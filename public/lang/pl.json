@@ -15,7 +15,7 @@
             },
             "indices": {
                 "title": "Indeksy",
-                "text": "Śledź i handluj na głównych rynkach, takich jak S&P 500, NASDAQ, DAX i FTSE 100"."
+                "text": "Śledź i handluj na głównych rynkach, takich jak S&P 500, NASDAQ, DAX i FTSE 100."
             },
             "etfs": {
                 "title": "ETF-y",
@@ -241,3 +241,4 @@
         "note": "Rejestracja zajmuje <span>mniej niż 1 minutę</span>"
     }
 }
+
