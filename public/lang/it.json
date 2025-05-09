@@ -11,23 +11,23 @@
       "items": {
           "stocks": {
               "title": "Azioni",
-              "text": "I tuoi fondi sono protetti dalla copertura assicurativa di Lloyd’s of London"
+              "text": "Fai trading sulle azioni delle principali aziende di Stati Uniti, Regno Unito ed Europa – tra cui Apple, Tesla, Amazon e molte altre."
           },
           "indices": {
               "title": "Indici",
-              "text": "I tuoi fondi sono protetti dalla copertura assicurativa di Lloyd’s of London"
+              "text": "Segui e fai trading sui principali indici globali – come S&P 500, NASDAQ, DAX e FTSE 100."
           },
           "etfs": {
               "title": "ETF",
-              "text": "I tuoi fondi sono protetti dalla copertura assicurativa di Lloyd’s of London"
+              "text": "Diversifica il tuo portafoglio con ETF composti da panieri di asset selezionati di prim'ordine"
           },
           "commodities": {
               "title": "Materie prime",
-              "text": "I tuoi fondi sono protetti dalla copertura assicurativa di Lloyd’s of London"
+              "text": "Accedi al trading di oro, petrolio, argento e altre delle materie prime più scambiate al mondo."
           },
           "energy": {
               "title": "Mercati energetici",
-              "text": "I tuoi fondi sono protetti dalla copertura assicurativa di Lloyd’s of London"
+              "text": "Segui i trend globali dell’energia e fai trading su petrolio, gas naturale e altre risorse chiave."
           }
       }
   },
