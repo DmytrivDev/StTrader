@@ -20,11 +20,12 @@ anchorLinks?.forEach(link => {
         });
       } else {
         const lang = document.documentElement.lang || 'en';
+        const anchor = href; // наприклад, "#section1"
 
         if (lang === 'en') {
-          window.location.href = 'undex.html';
+          window.location.href = `undex.html${anchor}`;
         } else {
-          window.location.href = `/${lang}.html`;
+          window.location.href = `/${lang}.html${anchor}`;
         }
       }
     }
