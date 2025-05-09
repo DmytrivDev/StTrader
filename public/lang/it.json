@@ -1,8 +1,8 @@
 {
   "runline": {
       "item_1": "Piattaforma di trading facile da usare per tutti",
-      "item_2": "Configurazione gratuita dell'account con deposito minimo basso",
-      "item_3": "Scambia sui mercati globali ovunque e in qualsiasi momento",
+      "item_2": "Registrazione gratuita e deposito iniziale minimo",
+      "item_3": "Trading sui mercati globali, sempre e ovunque",
       "item_4": "Prelievi rapidi e pagamenti sicuri"
   },
   "trade": {
@@ -35,7 +35,7 @@
       "title_html": "COME FUNZIONA IN <span>3 SEMPLICI PASSAGGI</span>",
       "steps": {
           "step1": "Crea il tuo account gratuito",
-          "step2": "Effettua un deposito da € 250",
+          "step2": "Effettua un deposito a partire da 250 €",
           "step3": "Inizia a fare trading a modo tuo"
       }
   },
@@ -43,25 +43,25 @@
       "title": "PERCHÉ I TRADER SI FIDANO DI ST TRADER",
       "items": {
           "item1": {
-              "title": "1700+ asset!",
-              "text": "Scambia azioni globali, indici, metalli e altro — tutto da un unico account"
+              "title": "+1700 strumenti",
+              "text": "Fai trading su azioni, indici, metalli e altro – tutto da un solo account."
           },
           "item2": {
-              "title": "$1 mln",
-              "text": "I tuoi fondi sono protetti dalla copertura assicurativa di Lloyd’s of London"
+              "title": "fino a 1 milione di $",
+              "text": "Copertura assicurativa con Lloyd’s di Londra."
           },
           "item3": {
-              "title": "100 000+",
-              "text": "Unisciti a una crescente comunità globale che già fa trading con ST Trader"
+              "title": "100 000+ trader",
+              "text": "Entra in una community globale di trader attivi con ST Trader."
           },
           "item4": {
               "title": "Spread 0.0",
-              "text": "Spread ultra-bassi e un'opzione di account senza commissioni per un trading più intelligente"
+              "text": "Massima efficienza nei costi per un trading più intelligente."
           }
       }
   },
   "awarded": {
-      "title": "PREMIATO PER L'ECCELLENZA NELL'INNOVAZIONE NEL TRADING",
+      "title": "PREMIATI PER L’INNOVAZIONE NEL TRADING",
       "items": {
           "item1": {
               "title": "Miglior Esperienza di Trading",
@@ -96,7 +96,7 @@
       "text": "Ricarica il tuo account istantaneamente utilizzando metodi di pagamento globali affidabili"
   },
   "grow": {
-      "title": "IN COSA PUÒ TRASFORMARSI IL TUO DEPOSITO?",
+      "title": "QUALI RISULTATI PUOI OTTENERE CON IL TUO DEPOSITO?",
       "button": "Prova la Demo della Piattaforma",
       "cards": {
           "country_italy": "Italia",
