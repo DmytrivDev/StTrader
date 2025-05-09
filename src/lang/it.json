@@ -1,8 +1,8 @@
 {
   "runline": {
-      "item_1": "Piattaforma di trading facile da usare per tutti",
-      "item_2": "Configurazione gratuita dell'account con deposito minimo basso",
-      "item_3": "Scambia sui mercati globali ovunque e in qualsiasi momento",
+      "item_1": "Piattaforma intuitiva, adatta a tutti",
+      "item_2": "Registrazione gratuita e deposito iniziale minimo",
+      "item_3": "Trading sui mercati globali, sempre e ovunque",
       "item_4": "Prelievi rapidi e pagamenti sicuri"
   },
   "trade": {
@@ -11,23 +11,23 @@
       "items": {
           "stocks": {
               "title": "Azioni",
-              "text": "I tuoi fondi sono protetti dalla copertura assicurativa di Lloyd’s of London"
+              "text": "Fai trading sulle azioni delle principali aziende di Stati Uniti, Regno Unito ed Europa – tra cui Apple, Tesla, Amazon e molte altre"
           },
           "indices": {
               "title": "Indici",
-              "text": "I tuoi fondi sono protetti dalla copertura assicurativa di Lloyd’s of London"
+              "text": "Segui e fai trading sui principali indici globali – come S&P 500, NASDAQ, DAX e FTSE 100"
           },
           "etfs": {
               "title": "ETF",
-              "text": "I tuoi fondi sono protetti dalla copertura assicurativa di Lloyd’s of London"
+              "text": "Diversifica il tuo portafoglio con ETF composti da panieri di asset selezionati di prim'ordine"
           },
           "commodities": {
               "title": "Materie prime",
-              "text": "I tuoi fondi sono protetti dalla copertura assicurativa di Lloyd’s of London"
+              "text": "Accedi al trading di oro, petrolio, argento e altre delle materie prime più scambiate al mondo"
           },
           "energy": {
-              "title": "Mercati energetici",
-              "text": "I tuoi fondi sono protetti dalla copertura assicurativa di Lloyd’s of London"
+              "title": "Mercati dell’energia",
+              "text": "Segui i trend globali dell’energia e fai trading su petrolio, gas naturale e altre risorse chiave"
           }
       }
   },
@@ -35,7 +35,7 @@
       "title_html": "COME FUNZIONA IN <span>3 SEMPLICI PASSAGGI</span>",
       "steps": {
           "step1": "Crea il tuo account gratuito",
-          "step2": "Effettua un deposito da € 250",
+          "step2": "Effettua un deposito a partire da 250 €",
           "step3": "Inizia a fare trading a modo tuo"
       }
   },
@@ -43,12 +43,12 @@
       "title": "PERCHÉ I TRADER SI FIDANO DI ST TRADER",
       "items": {
           "item1": {
-              "title": "1700+ asset",
-              "text": "Scambia azioni globali, indici, metalli e altro — tutto da un unico account"
+              "title": "1700+ strumenti disponibili",
+              "text": "Fai trading su azioni, indici, metalli e altro – tutto da un solo account"
           },
           "item2": {
-              "title": "$1 mln",
-              "text": "I tuoi fondi sono protetti dalla copertura assicurativa di Lloyd’s of London"
+              "title": "fino a 1 milione di $",
+              "text": "Copertura assicurativa con Lloyd’s di Londra"
           },
           "item3": {
               "title": "100 000+",
