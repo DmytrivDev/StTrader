@@ -61,7 +61,7 @@
       }
   },
   "awarded": {
-      "title": "PREMIATO PER L'ECCELLENZA NELL'INNOVAZIONE NEL TRADING",
+      "title": "PREMIATI PER L’INNOVAZIONE NEL TRADING",
       "items": {
           "item1": {
               "title": "Miglior Esperienza di Trading",
@@ -97,7 +97,7 @@
   },
   "grow": {
       "title": "IN COSA PUÒ TRASFORMARSI IL TUO DEPOSITO?",
-      "button": "Prova la Demo della Piattaforma",
+      "button": "Prova la Piattaforma",
       "cards": {
           "country_italy": "Italia",
           "country_germany": "Germania",
@@ -112,7 +112,7 @@
   },
   "type": {
       "title": "SCELGI IL TUO TIPO DI ACCOUNT",
-      "subtitle": "Due tipi di account flessibili adattati ai tuoi obiettivi e abitudini di trading",
+      "subtitle": "Due opzioni flessibili, progettate per adattarsi ai tuoi obiettivi e al tuo stile di trading.",
       "note": "Basta registrarsi - <span>è gratuito</span>",
       "standard": {
           "title": "STANDARD",
@@ -182,21 +182,21 @@
   },
   "faq": {
       "title": "Domande frequenti",
-      "subtitle": "Nuovo nel trading? Abbiamo le risposte",
-      "q1": "Cos'è ST Trader e come funziona?",
-      "a1": "ST Trader è una piattaforma online che ti dà accesso ai mercati globali. Puoi aprire un account, depositare fondi e iniziare a fare trading con strumenti progettati per tutti i livelli di esperienza.",
-      "q2": "Quanto denaro mi serve per iniziare?",
-      "a2": "Puoi aprire un account con un minimo di €50, ma ti consigliamo di iniziare con almeno €250 per sfruttare appieno le funzionalità e gli strumenti della piattaforma.",
-      "q3": "Devo essere un esperto di trading?",
-      "a3": "Assolutamente no. ST Trader è progettato per essere adatto ai principianti, con interfacce semplici e accesso a supporto e tutorial.",
-      "q4": "Cosa posso scambiare sulla piattaforma?",
-      "a4": "Puoi scambiare azioni, indici, materie prime, criptovalute e altro — tutto da un unico account.",
-      "q5": "ST Trader è una piattaforma sicura e regolamentata?",
-      "a5": "Sì, i tuoi fondi sono protetti e collaboriamo con fornitori di liquidità regolamentati e processori di pagamento assicurati.",
-      "q6": "Come deposito denaro?",
-      "a6": "I depositi possono essere effettuati istantaneamente tramite carta di credito, bonifico bancario o altri metodi di pagamento affidabili elencati nella tua area account.",
-      "q7": "Quanto velocemente posso ritirare i miei profitti?",
-      "a7": "I prelievi vengono solitamente elaborati entro 24 ore, a seconda del metodo di pagamento e dello stato della verifica."
+      "subtitle": "Nuovo nel trading? bbiamo le risposte per te",
+      "q1": "Cos’è ST Trader e come funziona?",
+      "a1": "ST Trader è una piattaforma di trading online progettata per offrirti accesso diretto ai mercati finanziari globali. Registrati in pochi istanti, ricarica il tuo conto e inizia a fare trading su strumenti come azioni, indici e materie prime — tutto tramite un’interfaccia chiara e intuitiva, disponibile sia su desktop che su dispositivi mobili.",
+      "q2": "Con quanto posso iniziare?",
+      "a2": "Il conto può essere aperto con un deposito minimo di soli 50 €, ma per sfruttare appieno gli strumenti e le funzionalità disponibili, consigliamo di iniziare con almeno 250 €. Il capitale rimane sempre sotto il tuo pieno controllo.",
+      "q3": "Devo avere esperienza nel trading?",
+      "a3": "Assolutamente no. La piattaforma è pensata anche per chi parte da zero. Ogni sezione è intuitiva, guidata e di facile utilizzo. Inoltre, mettiamo a disposizione aggiornamenti di mercato, materiali formativi essenziali e un team di supporto sempre pronto ad assisterti.",
+      "q4": "Cosa posso negoziare con ST Trader?",
+      "a4": "Potrai accedere a oltre 1700 strumenti finanziari da tutto il mondo, tra cui titoli di grandi aziende, indici globali come S&P 500 o DAX, materie prime come oro, petrolio e molte altre opportunità di investimento — il tutto da un unico conto..",
+      "q5": "ST Trader è sicuro e regolamentato?",
+      "a5": "Sì. Operiamo come broker autorizzato e regolamentato. I fondi dei clienti sono separati dai conti operativi e protetti da un’assicurazione fino a 1.000.000 $ fornita da Lloyd’s di Londra. ST Trader è inoltre membro della Financial Commission, che garantisce una risoluzione indipendente delle controversie.",
+      "q6": "Come posso depositare denaro?",
+      "a6": "Accettiamo le principali soluzioni di pagamento affidabili come Visa, Mastercard, Apple Pay, Google Pay, Revolut, Skrill, Neteller, bonifico bancario e SEPA. La maggior parte dei depositi viene accreditata in modo immediato e senza commissioni nascoste.",
+      "q7": "Quanto tempo serve per ritirare i profitti?",
+      "a7": "I prelievi vengono generalmente elaborati entro 24 ore. Puoi richiederli in qualsiasi momento direttamente tramite la tua dashboard. ST Trader non applica alcuna commissione sui prelievi."
   },
   "copytop": {
       "title": "Investi in Modo Intelligente: Copia i Migliori Trader Istantaneamente",
