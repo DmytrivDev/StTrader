@@ -11,12 +11,21 @@ anchorLinks?.forEach(link => {
       event.preventDefault();
 
       const targetElement = document.querySelector(href);
+
       if (targetElement) {
         scrollToElement(targetElement, {
           offset: -headerHeight,
           ease: 'inOutQuint',
           duration: 1000,
         });
+      } else {
+        const lang = document.documentElement.lang || 'en';
+
+        if (lang === 'en') {
+          window.location.href = 'undex.html';
+        } else {
+          window.location.href = `/${lang}.html`;
+        }
       }
     }
   });
