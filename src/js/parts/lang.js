@@ -38,73 +38,73 @@ async function loadTranslations(lang) {
 
 loadTranslations(lang);
 
-document.addEventListener('DOMContentLoaded', () => {
-  const currentLang = document.documentElement.lang.toUpperCase();
+// document.addEventListener('DOMContentLoaded', () => {
+//   const currentLang = document.documentElement.lang.toUpperCase();
 
-  const actionsLang = document.querySelector('.actions__lang > li > a');
-  if (actionsLang) {
-    actionsLang.textContent = currentLang;
-    document.querySelector('.moblang__open').textContent = currentLang;
-  }
+//   const actionsLang = document.querySelector('.actions__lang > li > a');
+//   if (actionsLang) {
+//     actionsLang.textContent = currentLang;
+//     document.querySelector('.moblang__open').textContent = currentLang;
+//   }
 
-  const langLists = document.querySelectorAll('.sub-menu');
+//   const langLists = document.querySelectorAll('.sub-menu');
 
-  langLists.forEach(list => {
-    const items = list.querySelectorAll('li');
+//   langLists.forEach(list => {
+//     const items = list.querySelectorAll('li');
 
-    items.forEach(item => {
-      const langCode = item.textContent.trim().toUpperCase();
+//     items.forEach(item => {
+//       const langCode = item.textContent.trim().toUpperCase();
 
-      if (langCode === currentLang) {
-        item.classList.add('current-lang');
-      } else {
-        item.classList.remove('current-lang');
-      }
-    });
-  });
-});
-
-
-document.addEventListener('DOMContentLoaded', () => {
-  const fileName = window.location.pathname.split('/').pop(); // contact.html
-  const isIndex = fileName === 'index.html';
-  const isLangPage = /^[a-z]{2}\.html$/i.test(fileName); // pl.html, it.html etc.
-
-  if (isIndex || isLangPage) return;
-
-  const langLists = document.querySelectorAll('.sub-menu, .moblang__list .sub-menu');
-
-  langLists.forEach((list) => {
-    list.querySelectorAll('a').forEach((link) => {
-      const langCode = link.textContent.trim().toLowerCase();
-
-      if (langCode === 'en') {
-        link.setAttribute('href', `/${fileName}`);
-      } else {
-        link.setAttribute('href', `/${langCode}/${fileName}`);
-      }
-    });
-  });
-});
+//       if (langCode === currentLang) {
+//         item.classList.add('current-lang');
+//       } else {
+//         item.classList.remove('current-lang');
+//       }
+//     });
+//   });
+// });
 
 
-document.addEventListener('DOMContentLoaded', () => {
-  const currentLang = document.documentElement.lang.toLowerCase();
-  if (currentLang === 'en') return;
+// document.addEventListener('DOMContentLoaded', () => {
+//   const fileName = window.location.pathname.split('/').pop(); // contact.html
+//   const isIndex = fileName === 'index.html';
+//   const isLangPage = /^[a-z]{2}\.html$/i.test(fileName); // pl.html, it.html etc.
 
-  const links = document.querySelectorAll('a[href^="/"]:not(.actions__lang a):not(.moblang__list a)');
+//   if (isIndex || isLangPage) return;
 
-  links.forEach(link => {
-    const href = link.getAttribute('href');
+//   const langLists = document.querySelectorAll('.sub-menu, .moblang__list .sub-menu');
 
-    // Якщо просто "/"
-    if (href === '/') {
-      link.setAttribute('href', `/${currentLang}.html`);
-    }
+//   langLists.forEach((list) => {
+//     list.querySelectorAll('a').forEach((link) => {
+//       const langCode = link.textContent.trim().toLowerCase();
 
-    // Якщо веде на html-файл і не коренева сторінка
-    else if (href.endsWith('.html')) {
-      link.setAttribute('href', `/${currentLang}${href}`);
-    }
-  });
-});
+//       if (langCode === 'en') {
+//         link.setAttribute('href', `/${fileName}`);
+//       } else {
+//         link.setAttribute('href', `/${langCode}/${fileName}`);
+//       }
+//     });
+//   });
+// });
+
+
+// document.addEventListener('DOMContentLoaded', () => {
+//   const currentLang = document.documentElement.lang.toLowerCase();
+//   if (currentLang === 'en') return;
+
+//   const links = document.querySelectorAll('a[href^="/"]:not(.actions__lang a):not(.moblang__list a)');
+
+//   links.forEach(link => {
+//     const href = link.getAttribute('href');
+
+//     // Якщо просто "/"
+//     if (href === '/') {
+//       link.setAttribute('href', `/${currentLang}.html`);
+//     }
+
+//     // Якщо веде на html-файл і не коренева сторінка
+//     else if (href.endsWith('.html')) {
+//       link.setAttribute('href', `/${currentLang}${href}`);
+//     }
+//   });
+// });
