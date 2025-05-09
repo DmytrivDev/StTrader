@@ -1,9 +1,9 @@
 {
     "runline": {
-        "item_1": "Benutzerfreundliche Handelsplattform für alle",
-        "item_2": "Kostenlose Kontoeröffnung mit niedrigem Mindestdepot",
-        "item_3": "Handeln Sie auf globalen Märkten jederzeit und überall",
-        "item_4": "Schnelle Auszahlungen und sichere Zahlungen"
+        "item_1": "Intuitive Handelsplattform für Einsteiger und Profis",
+        "item_2": "Kostenfreie Kontoeröffnung mit niedriger Mindesteinzahlung",
+        "item_3": "Weltweit handeln – jederzeit, überall",
+        "item_4": "Schnelle Auszahlungen und sichere Transaktionen"
     },
     "trade": {
         "title": "WAS KÖNNEN SIE MIT ST TRADER HANDELN?",
@@ -11,23 +11,23 @@
         "items": {
             "stocks": {
                 "title": "Aktien",
-                "text": "Ihre Gelder sind durch die Versicherungsdeckung von Lloyd’s of London geschützt"
+                "text": "Handeln Sie Aktien führender US-, UK- und EU-Unternehmen_ wie Apple, Tesla, Amazon und viele mehr."
             },
             "indices": {
                 "title": "Indizes",
-                "text": "Ihre Gelder sind durch die Versicherungsdeckung von Lloyd’s of London geschützt"
+                "text": "Handeln Sie führende Börsenbarometer wie den S&P 500, NASDAQ, DAX und FTSE 100 – alles an einem Ort."
             },
             "etfs": {
                 "title": "ETFs",
-                "text": "Ihre Gelder sind durch die Versicherungsdeckung von Lloyd’s of London geschützt"
+                "text": "Diversifizieren Sie Ihr Portfolio mit einem Korb erstklassiger Anlagen."
             },
             "commodities": {
                 "title": "Rohstoffe",
-                "text": "Ihre Gelder sind durch die Versicherungsdeckung von Lloyd’s of London geschützt"
+                "text": "Greifen Sie auf Gold, Öl, Silber und weiteren Top-Ressourcen."
             },
             "energy": {
                 "title": "Energiemärkte",
-                "text": "Ihre Gelder sind durch die Versicherungsdeckung von Lloyd’s of London geschützt"
+                "text": "Bewegen Sie sich mit den Entwicklungen auf den globalen Energiemärkten – etwa bei Öl und Erdgas."
             }
         }
     },
