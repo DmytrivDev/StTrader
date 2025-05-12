@@ -16,37 +16,44 @@
 }
 
 .reviews__wrapp {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem 0;
+
   &.more-block {
-    .card-review {
-      &:nth-child(n + 5) {
+    .reviews__cards {
+      &:nth-child(n + 2) {
         display: none;
         opacity: 0;
         visibility: hidden;
       }
     }
     &.isOpened {
-      .card-review {
-        &:nth-child(n + 5) {
+      .reviews__cards {
+        &:nth-child(n + 2) {
           display: block;
           visibility: visible;
         }
       }
     }
     &.isAnim {
-      .card-review {
-        &:nth-child(n + 5) {
+      .reviews__cards {
+        &:nth-child(n + 2) {
           opacity: 1;
         }
       }
     }
   }
   .addMore {
-    margin: 1.25rem auto 0 auto;
+    margin: 0.625rem auto 0 auto;
   }
 }
+
 .reviews__cards {
+  width: 100%;
   column-count: 3;
   column-gap: 1.5rem;
+  transition: all 0.15s ease-in;
 }
 
 .card-review {
@@ -55,7 +62,6 @@
   padding: 1.5rem 1.5rem 1.375rem 1.5rem;
   border-radius: 1rem;
   background: linear-gradient(180deg, #242334 0%, #151427 100%);
-  transition: all 0.15s ease-in;
   &:first-child {
     margin-top: 0;
   }
@@ -185,9 +191,10 @@
   }
 
   .reviews__wrapp {
+    gap: 1rem 0;
     .addMore {
       display: block;
-      margin: 1.75rem auto 0 auto;
+      margin: 0.75rem auto 0 auto;
     }
   }
   .reviews__cards {
