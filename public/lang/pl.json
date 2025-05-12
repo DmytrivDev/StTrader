@@ -1,7 +1,7 @@
 {
     "runline": {
         "item_1": "Łatwa w użyciu platforma handlowa dla każdego",
-        "item_2": "Darmowe założenie konta z niskim minimalnym depozytem",
+        "item_2": "Bezpłatna konfiguracja konta z niskim minimalnym depozytem",
         "item_3": "Handluj na globalnych rynkach w dowolnym czasie i miejscu",
         "item_4": "Szybkie wypłaty i bezpieczne płatności"
     },
@@ -11,23 +11,23 @@
         "items": {
             "stocks": {
                 "title": "Akcje",
-                "text": "Twoje środki są chronione przez ubezpieczenie Lloyd’s of London"
+                "text": "Handel akcjami głównych spółek z USA, Wielkiej Brytanii i UE, takich jak Apple, Tesla, Amazon i inne."
             },
             "indices": {
                 "title": "Indeksy",
-                "text": "Twoje środki są chronione przez ubezpieczenie Lloyd’s of London"
+                "text": "Śledź i handluj na głównych rynkach, takich jak S&P 500, NASDAQ, DAX i FTSE 100."
             },
             "etfs": {
                 "title": "ETF-y",
-                "text": "Twoje środki są chronione przez ubezpieczenie Lloyd’s of London"
+                "text": "Zdywersyfikuj swój portfel za pomocą koszyków najlepszych aktywów."
             },
             "commodities": {
-                "title": "Towary",
-                "text": "Twoje środki są chronione przez ubezpieczenie Lloyd’s of London"
+                "title": "Surowce",
+                "text": "Uzyskaj dostęp do złota, ropy naftowej, srebra i innych surowców będących przedmiotem obrotu."
             },
             "energy": {
                 "title": "Rynki energetyczne",
-                "text": "Twoje środki są chronione przez ubezpieczenie Lloyd’s of London"
+                "text": "Podążaj za trendami na światowych rynkach energii, takich jak ropa naftowa i gaz ziemny."
             }
         }
     },
@@ -68,7 +68,7 @@
                 "text": "Nagrodzony przez Global Business Outlook — 2024"
             },
             "item2": {
-                "title": "Najlepsza Platforma Handlowa <br>Mobilna",
+                "title": "Najlepsza Platforma Handlowa",
                 "text": "Nagrodzony przez Fintech Awards — 2023"
             },
             "item3": {
@@ -185,7 +185,7 @@
         "subtitle": "Nowy w handlu? Mamy odpowiedzi",
         "q1": "Czym jest ST Trader i jak działa?",
         "a1": "ST Trader to platforma online, która daje Ci dostęp do globalnych rynków. Możesz otworzyć konto, wpłacić środki i zacząć handlować za pomocą narzędzi zaprojektowanych dla wszystkich poziomów doświadczenia.",
-        "q2": "Ile pieniędzy potrzebuję, aby начать?",
+        "q2": "Ile pieniędzy potrzebuję, aby zacząć?",
         "a2": "Możesz otworzyć konto już za €50, ale zalecamy rozpoczęcie z co najmniej €250, aby w pełni wykorzystać funkcje i narzędzia platformy.",
         "q3": "Czy muszę być ekspertem w handlu?",
         "a3": "Wcale nie. ST Trader został zaprojektowany, aby być przyjaznym dla początkujących, z prostymi interfejsami i dostępem do wsparcia i tutoriali.",
@@ -227,7 +227,9 @@
             "button": "Zacznij Teraz"
         },
         "copy": "ST Trader 2025",
-        "privacy": "Polityka Prywatności"
+        "privacy": "Polityka Prywatności",
+        "cookies": "Cookie Policy",
+        "terms": "Terms of Use"
     },
     "cookies": {
         "title": "Cenimy Twoją Prywatność",

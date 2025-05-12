@@ -6,32 +6,32 @@ import FullReload from 'vite-plugin-full-reload';
 
 export default defineConfig(({ command }) => {
   return {
+    root: 'src',
+
+    base: './', // дозволяє використовувати шляхи типу /js/main.js і працює як локально, так і на Vercel
+
+    publicDir: '../public', // щоб lang/*.json підтягувались правильно
+
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
-    root: 'src',
+
     build: {
-      sourcemap: true,
-      rollupOptions: {
-        input: globSync('./src/*.html'),
-        output: {
-          manualChunks(id) {
-            if (id.includes('node_modules')) {
-              return 'vendor';
-            }
-          },
-          entryFileNames: chunkInfo => {
-            if (chunkInfo.name === 'commonHelpers') {
-              return 'commonHelpers.js';
-            }
-            return '[name].js';
-          },
-        },
-      },
       outDir: '../dist',
       emptyOutDir: true,
+      sourcemap: true,
+      assetsDir: '', // ⬅️ ось це — винесе assets у корінь, а не в assets/
+      rollupOptions: {
+        input: globSync('./src/**/*.html'),
+        preserveEntrySignatures: 'strict',
+      },
     },
-    plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
+
+    plugins: [
+      injectHTML(),
+      FullReload(['./src/**/*.html']), // щоб підхоплювало всі мовні сторінки при зміні
+    ],
+
     css: {
       preprocessorOptions: {
         sass: {

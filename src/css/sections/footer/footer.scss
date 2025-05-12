@@ -7,6 +7,11 @@
 .footer__top {
   padding: 3.5rem 0 2rem 0;
 }
+.class__footpages {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
 .footer__heading {
   display: flex;
   align-items: center;

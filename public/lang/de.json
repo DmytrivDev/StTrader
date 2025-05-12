@@ -1,9 +1,9 @@
 {
     "runline": {
-        "item_1": "Benutzerfreundliche Handelsplattform für alle",
-        "item_2": "Kostenlose Kontoeröffnung mit niedrigem Mindestdepot",
-        "item_3": "Handeln Sie auf globalen Märkten jederzeit und überall",
-        "item_4": "Schnelle Auszahlungen und sichere Zahlungen"
+        "item_1": "Intuitive Handelsplattform für Einsteiger und Profis",
+        "item_2": "Kostenfreie Kontoeröffnung mit niedriger Mindesteinzahlung",
+        "item_3": "Weltweit handeln – jederzeit, überall",
+        "item_4": "Schnelle Auszahlungen und sichere Transaktionen"
     },
     "trade": {
         "title": "WAS KÖNNEN SIE MIT ST TRADER HANDELN?",
@@ -11,23 +11,23 @@
         "items": {
             "stocks": {
                 "title": "Aktien",
-                "text": "Ihre Gelder sind durch die Versicherungsdeckung von Lloyd’s of London geschützt"
+                "text": "Handeln Sie Aktien führender US-, UK- und EU-Unternehmen_ wie Apple, Tesla, Amazon und viele mehr."
             },
             "indices": {
                 "title": "Indizes",
-                "text": "Ihre Gelder sind durch die Versicherungsdeckung von Lloyd’s of London geschützt"
+                "text": "Handeln Sie führende Börsenbarometer wie den S&P 500, NASDAQ, DAX und FTSE 100 – alles an einem Ort."
             },
             "etfs": {
                 "title": "ETFs",
-                "text": "Ihre Gelder sind durch die Versicherungsdeckung von Lloyd’s of London geschützt"
+                "text": "Diversifizieren Sie Ihr Portfolio mit einem Korb erstklassiger Anlagen."
             },
             "commodities": {
                 "title": "Rohstoffe",
-                "text": "Ihre Gelder sind durch die Versicherungsdeckung von Lloyd’s of London geschützt"
+                "text": "Greifen Sie auf Gold, Öl, Silber und weiteren Top-Ressourcen."
             },
             "energy": {
                 "title": "Energiemärkte",
-                "text": "Ihre Gelder sind durch die Versicherungsdeckung von Lloyd’s of London geschützt"
+                "text": "Bewegen Sie sich mit den Entwicklungen auf den globalen Energiemärkten – etwa bei Öl und Erdgas."
             }
         }
     },
@@ -36,27 +36,27 @@
         "steps": {
             "step1": "Erstellen Sie Ihr kostenloses Konto",
             "step2": "Legen Sie ein Depot ab € 250 an",
-            "step3": "Beginnen Sie nach Ihrer Art zu handeln"
+            "step3": "Mit dem Handel starten – ganz nach Ihrem Stil"
         }
     },
     "trust": {
-        "title": "WARUM VERTRAUEN TRADER ST TRADER?",
+        "title": "WARUM TRADER ST TRADER VERTRAUEN?",
         "items": {
             "item1": {
                 "title": "1700+ Assets",
-                "text": "Handeln Sie globale Aktien, Indizes, Metalle und mehr — alles von einem Konto"
+                "text": "Handeln Sie Aktien, Indizes, Metalle und mehr – alles über nur ein Konto"
             },
             "item2": {
                 "title": "$1 Mio",
-                "text": "Ihre Gelder sind durch die Versicherungsdeckung von Lloyd’s of London geschützt"
+                "text": "Ihr Kapital ist durch eine Versicherung bei Lloyd’s of London geschützt"
             },
             "item3": {
-                "title": "100 000+",
-                "text": "Tritt einer wachsenden globalen Gemeinschaft bei, die bereits mit ST Trader handelt"
+                "title": "Über 100.000 Trader",
+                "text": "Werden auch Sie Teil einer wachsenden globalen Trading-Community"
             },
             "item4": {
                 "title": "Spreads 0.0",
-                "text": "Ultra-niedrige Spreads und eine Kontenoption ohne Provision für intelligenteres Handeln"
+                "text": "Profitieren Sie von ultraniedrigen Spreads und einem provisionsfreien Konto für smarteres Trading"
             }
         }
     },
@@ -64,19 +64,19 @@
         "title": "PREISIERT FÜR EXZELLENZ IN TRADING-INNOVATION",
         "items": {
             "item1": {
-                "title": "Beste Handelserfahrung",
-                "text": "Preis von Global Business Outlook — 2024"
+                "title": "Beste Trading-Erfahrung",
+                "text": "Prämiert von Global Business Outlook – 2024"
             },
             "item2": {
-                "title": "Beste Mobile Handelsplattform",
-                "text": "Preis von Fintech Awards — 2023"
+                "title": "Beste mobile Trading-Plattform",
+                "text": "Ausgezeichnet bei den Fintech Awards – 2023"
             },
             "item3": {
-                "title": "Schnellst wachsender Broker",
-                "text": "Preis von World Finance — 2024"
+                "title": "Schnellstwachsender Broker",
+                "text": "Verliehen von World Finance – 2024"
             },
             "item4": {
-                "title": "Beste Neue Handelsstechnologie",
+                "title": "Beste neue Trading-Technologie",
                 "text": "Preis von Financial Innovation Awards — 2022"
             }
         }
@@ -111,7 +111,7 @@
         }
     },
     "type": {
-        "title": "WÄHLEN SIE IHREN KONTOtyp",
+        "title": "WÄHLEN SIE IHREN KONTOTYP",
         "subtitle": "Zwei flexible Kontotypen, die auf Ihre Ziele und Handelsgewohnheiten abgestimmt sind",
         "note": "Melden Sie sich einfach an - <span>es ist kostenlos</span>",
         "standard": {
@@ -141,7 +141,7 @@
     },
     "platforms": {
         "title": "HANDELN SIE AUF VERTRAUENSWÜRDIGEN PLATTFORMEN",
-        "subtitle": "Greifen Sie von jedem Gerät auf die Märkte zu — schnell, flexibel und anfängerfreundlich",
+        "subtitle": "Greifen Sie auf globale Märkte zu – jederzeit, auf jedem Gerät. Schnell, sicher und benutzerfreundlich – auch für Einsteiger",
         "features": {
             "feature1": {
                 "title": "Mobil, Desktop und Web",
@@ -149,17 +149,17 @@
             },
             "feature2": {
                 "title": "Benutzerfreundliche Oberfläche",
-                "text": "Sauberes, intuitives Layout mit leistungsstarken Funktionen nur einen Klick entfernt"
+                "text": "Klares, intuitives Layout – mit allen Funktionen in Reichweite, auch für Einsteiger"
             },
             "feature3": {
                 "title": "Erweiterte Charts & Ein-Klick-Handel",
-                "text": "Verfolgen Sie Trends, analysieren Sie Bewegungen und platzieren Sie Trades in Sekunden"
+                "text": "Analysieren Sie Märkte, verfolgen Sie Trends und platzieren Sie Trades in Sekundenschnelle"
             }
         }
     },
     "reviews": {
-        "title": "WAS SAGEN ECHTE NUTZER ÜBER ST TRADER",
-        "subtitle": "Tausende von Tradern vertrauen uns — hier ist der Grund",
+        "title": "DAS SAGEN ECHTE NUTZER ÜBER ST TRADER",
+        "subtitle": "Tausende Trader vertrauen uns – hier ist der Grund dafür",
         "rating": "<span>4.8<span>/5</span></span> (Basierend auf 1 325 Bewertungen)",
         "show_more": "Mehr anzeigen",
         "review1": {
@@ -227,7 +227,9 @@
             "button": "Jetzt Starten"
         },
         "copy": "ST Trader 2025",
-        "privacy": "Datenschutzrichtlinie"
+        "privacy": "Datenschutzrichtlinie",
+        "cookies": "Cookie Policy",
+        "terms": "Terms of Use"
     },
     "cookies": {
         "title": "Wir Schätzen Ihre Privatsphäre",

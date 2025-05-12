@@ -11,23 +11,23 @@
         "items": {
             "stocks": {
                 "title": "Stocks",
-                "text": "Your funds are protected with Lloyd’s of London insurance coverage"
+                "text": "Trade shares of major US, UK, and EU companies like Apple, Tesla, Amazon, and more."
             },
             "indices": {
                 "title": "Indices",
-                "text": "Your funds are protected with Lloyd’s of London insurance coverage"
+                "text": "Follow and trade major markets like S&P 500, NASDAQ, DAX, and FTSE 100."
             },
             "etfs": {
                 "title": "ETFs",
-                "text": "Your funds are protected with Lloyd’s of London insurance coverage"
+                "text": "Diversify your portfolio with baskets of top assets."
             },
             "commodities": {
                 "title": "Commodities",
-                "text": "Your funds are protected with Lloyd’s of London insurance coverage"
+                "text": "Access gold, oil, silver, and more top-traded resources."
             },
             "energy": {
                 "title": "Energy Markets",
-                "text": "Your funds are protected with Lloyd’s of London insurance coverage"
+                "text": "Move with the trends in global energy like oil and natural gas."
             }
         }
     },
@@ -173,7 +173,7 @@
         },
         "review3": {
             "name": "Daniel K. (Sweden)",
-            "text": "Was skeptical at first, but it turned out legit. I trade during lunch breaks, and already withdrew profits twice."
+            "text": "Was sceptical at first, but it turned out legit. I trade during lunch breaks, and already withdrew profits twice."
         },
         "review4": {
             "name": "Mia S. (Austria)",
@@ -227,7 +227,9 @@
             "button": "Get Started Now"
         },
         "copy": "ST Trader 2025",
-        "privacy": "Privacy Policy"
+        "privacy": "Privacy Policy",
+        "cookies": "Cookie Policy",
+        "terms": "Terms of Use"
     },
     "cookies": {
         "title": "We Value Your Privacy",
