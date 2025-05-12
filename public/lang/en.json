@@ -227,7 +227,9 @@
             "button": "Get Started Now"
         },
         "copy": "ST Trader 2025",
-        "privacy": "Privacy Policy"
+        "privacy": "Privacy Policy",
+        "cookies": "Cookie Policy",
+        "terms": "Terms of Use"
     },
     "cookies": {
         "title": "We Value Your Privacy",

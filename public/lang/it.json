@@ -1,243 +1,245 @@
 {
-  "runline": {
-      "item_1": "Piattaforma di trading facile da usare per tutti",
-      "item_2": "Registrazione gratuita e deposito iniziale minimo",
-      "item_3": "Trading sui mercati globali, sempre e ovunque",
-      "item_4": "Prelievi rapidi e pagamenti sicuri"
-  },
-  "trade": {
-      "title": "COSA PUOI SCAMBIARE CON ST TRADER?",
-      "button": "Inizia Ora",
-      "items": {
-          "stocks": {
-              "title": "Azioni",
-              "text": "Fai trading sulle azioni delle principali aziende di Stati Uniti, Regno Unito ed Europa – tra cui Apple, Tesla, Amazon e molte altre."
-          },
-          "indices": {
-              "title": "Indici",
-              "text": "Segui e fai trading sui principali indici globali – come S&P 500, NASDAQ, DAX e FTSE 100."
-          },
-          "etfs": {
-              "title": "ETF",
-              "text": "Diversifica il tuo portafoglio con ETF composti da panieri di asset selezionati di prim'ordine"
-          },
-          "commodities": {
-              "title": "Materie prime",
-              "text": "Accedi al trading di oro, petrolio, argento e altre delle materie prime più scambiate al mondo."
-          },
-          "energy": {
-              "title": "Mercati energetici",
-              "text": "Segui i trend globali dell’energia e fai trading su petrolio, gas naturale e altre risorse chiave."
-          }
-      }
-  },
-  "works": {
-      "title_html": "COME FUNZIONA IN <span>3 SEMPLICI PASSAGGI</span>",
-      "steps": {
-          "step1": "Crea il tuo account gratuito",
-          "step2": "Effettua un deposito a partire da 250 €",
-          "step3": "Inizia a fare trading a modo tuo"
-      }
-  },
-  "trust": {
-      "title": "PERCHÉ I TRADER SI FIDANO DI ST TRADER",
-      "items": {
-          "item1": {
-              "title": "+1700 strumenti",
-              "text": "Fai trading su azioni, indici, metalli e altro – tutto da un solo account."
-          },
-          "item2": {
-              "title": "fino a 1 milione di $",
-              "text": "Copertura assicurativa con Lloyd’s di Londra."
-          },
-          "item3": {
-              "title": "100 000+ trader",
-              "text": "Entra in una community globale di trader attivi con ST Trader."
-          },
-          "item4": {
-              "title": "Spread 0.0",
-              "text": "Massima efficienza nei costi per un trading più intelligente."
-          }
-      }
-  },
-  "awarded": {
-      "title": "PREMIATI PER L’INNOVAZIONE NEL TRADING",
-      "items": {
-          "item1": {
-              "title": "Miglior Esperienza di Trading",
-              "text": "Premiato da Global Business Outlook — 2024"
-          },
-          "item2": {
-              "title": "Miglior Piattaforma di Trading Mobile",
-              "text": "Premiato da Fintech Awards — 2023"
-          },
-          "item3": {
-              "title": "Broker a Crescita Più Rapida",
-              "text": "Premiato da World Finance — 2024"
-          },
-          "item4": {
-              "title": "Miglior Nuova Tecnologia per il Trading",
-              "text": "Premiato da Financial Innovation Awards — 2022"
-          }
-      }
-  },
-  "commision": {
-      "subtitle": "Costi inferiori. Potenziale superiore.",
-      "title": "Commissioni $0",
-      "features": {
-          "feature1": "Commissioni $0",
-          "feature2": "Spread da 0.0 pip",
-          "feature3": "Leverage elevato 1:500",
-          "feature4": "Nessuna tassa di deposito"
-      }
-  },
-  "deposits": {
-      "title": "DEPOSITI VELOCI E SICURI",
-      "text": "Ricarica il tuo account istantaneamente utilizzando metodi di pagamento globali affidabili"
-  },
-  "grow": {
-      "title": "QUALI RISULTATI PUOI OTTENERE CON IL TUO DEPOSITO?",
-      "button": "Prova la Demo della Piattaforma",
-      "cards": {
-          "country_italy": "Italia",
-          "country_germany": "Germania",
-          "country_spain": "Spagna",
-          "minday_20": "20 min/giorno",
-          "minday_30": "30 min/giorno",
-          "minday_50": "50 min/giorno",
-          "starting": "Deposito Iniziale",
-          "result": "Risultato a 30 Giorni",
-          "growth": "Crescita"
-      }
-  },
-  "type": {
-      "title": "SCELGI IL TUO TIPO DI ACCOUNT",
-      "subtitle": "Due tipi di account flessibili adattati ai tuoi obiettivi e abitudini di trading",
-      "note": "Basta registrarsi - <span>è gratuito</span>",
-      "standard": {
-          "title": "STANDARD",
-          "button": "APRI UN ACCOUNT STANDARD ORA",
-          "features": {
-              "feature1": "Spread a partire da <b>1.0 pip</b>",
-              "feature2": "Esecuzione <b>ultra-veloce</b>",
-              "feature3": "Nessun <b>Dealing Desk</b>",
-              "feature4": "Ambiente di trading <b>trasparente</b>",
-              "feature5": "Protezione da saldo negativo <b>garantita</b>",
-              "feature6": "<b>Nessuna commissione</b> sulle negoziazioni (eccetto indici)"
-          }
-      },
-      "ecn": {
-          "title": "ECN",
-          "button": "APRI UN ACCOUNT ECN ORA",
-          "features": {
-              "feature1": "Spread a partire da <b>0.0 pip</b>",
-              "feature2": "Esecuzione <b>ultra-veloce</b>",
-              "feature3": "Analisi di mercato <b>approfondite</b>",
-              "feature4": "Ambiente di trading <b>trasparente</b>",
-              "feature5": "Protezione da saldo negativo <b>garantita</b>",
-              "feature6": "<b>Commissione:</b> Sì"
-          }
-      }
-  },
-  "platforms": {
-      "title": "FAI TRADING SU PIATTAFORME AFFIDABILI",
-      "subtitle": "Accedi ai mercati da qualsiasi dispositivo — veloce, flessibile e adatto ai principianti",
-      "features": {
-          "feature1": {
-              "title": "Mobile, desktop e web",
-              "text": "Fai trading ovunque e in qualsiasi momento — dal tuo telefono, tablet o PC"
-          },
-          "feature2": {
-              "title": "Interfaccia facile da usare",
-              "text": "Layout pulito e intuitivo con funzionalità potenti a portata di tap"
-          },
-          "feature3": {
-              "title": "Grafici avanzati e trading con un clic",
-              "text": "Segui le tendenze, analizza i movimenti e piazza ordini in pochi secondi"
-          }
-      }
-  },
-  "reviews": {
-      "title": "COSA DICONO I VERI UTENTI DI ST TRADER",
-      "subtitle": "Migliaia di trader si fidano di noi — ecco perché",
-      "rating": "<span>4.8<span>/5</span></span> (Basato su 1 325 recensioni)",
-      "show_more": "Mostra di più",
-      "review1": {
-          "name": "Lucas T. (Germania)",
-          "text": "Ho iniziato con €250 solo per provarlo. Dopo 3 settimane, avevo €412 sul mio saldo — e non devo stare tutto il giorno davanti ai grafici."
-      },
-      "review2": {
-          "name": "Sofia M. (Spagna)",
-          "text1": "Ho provato diverse piattaforme prima, ma questa finalmente mi ha convinto.",
-          "text2": "Design pulito, depositi rapidi, e il mio primo prelievo di €180 è stato accreditato in meno di un giorno."
-      },
-      "review3": {
-          "name": "Daniel K. (Svezia)",
-          "text": "Ero scettico all'inizio, ma si è rivelato affidabile. Faccio trading durante le pause pranzo e ho già ritirato i profitti due volte."
-      },
-      "review4": {
-          "name": "Mia S. (Austria)",
-          "text": "Davvero semplice da iniziare. Il team di supporto mi ha aiutato a capire la leva, e ora sono sicuro con ogni trade."
-      }
-  },
-  "faq": {
-      "title": "Domande frequenti",
-      "subtitle": "Nuovo nel trading? Abbiamo le risposte",
-      "q1": "Cos'è ST Trader e come funziona?",
-      "a1": "ST Trader è una piattaforma online che ti dà accesso ai mercati globali. Puoi aprire un account, depositare fondi e iniziare a fare trading con strumenti progettati per tutti i livelli di esperienza.",
-      "q2": "Quanto denaro mi serve per iniziare?",
-      "a2": "Puoi aprire un account con un minimo di €50, ma ti consigliamo di iniziare con almeno €250 per sfruttare appieno le funzionalità e gli strumenti della piattaforma.",
-      "q3": "Devo essere un esperto di trading?",
-      "a3": "Assolutamente no. ST Trader è progettato per essere adatto ai principianti, con interfacce semplici e accesso a supporto e tutorial.",
-      "q4": "Cosa posso scambiare sulla piattaforma?",
-      "a4": "Puoi scambiare azioni, indici, materie prime, criptovalute e altro — tutto da un unico account.",
-      "q5": "ST Trader è una piattaforma sicura e regolamentata?",
-      "a5": "Sì, i tuoi fondi sono protetti e collaboriamo con fornitori di liquidità regolamentati e processori di pagamento assicurati.",
-      "q6": "Come deposito denaro?",
-      "a6": "I depositi possono essere effettuati istantaneamente tramite carta di credito, bonifico bancario o altri metodi di pagamento affidabili elencati nella tua area account.",
-      "q7": "Quanto velocemente posso ritirare i miei profitti?",
-      "a7": "I prelievi vengono solitamente elaborati entro 24 ore, a seconda del metodo di pagamento e dello stato della verifica."
-  },
-  "copytop": {
-      "title": "Investi in Modo Intelligente: Copia i Migliori Trader Istantaneamente",
-      "text": "ST Trader ti dà accesso ai mercati più popolari del mondo con costi bassi, esecuzione rapida e nessuna tassa nascosta",
-      "button": "Inizia il Copy Trading"
-  },
-  "footer": {
-      "nav": {
-          "features": "Caratteristiche",
-          "how": "Come Funziona",
-          "why": "Perché ST Trader",
-          "testimonials": "Testimonianze",
-          "faq": "FAQ"
-      },
-      "company_info": "Il sito web è di proprietà e gestito da ST Trader Ltd, un'azienda registrata a Saint Lucia come International Business Company (IBC) con numero di registrazione 2023-00987. L'ufficio registrato dell'azienda si trova al Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, LC01 401, Saint Lucia. L'indirizzo operativo è Mariano Roque Alonso Street 1344, Asunción, 001005, Paraguay.",
-      "risk": {
-          "title": "Avviso di Rischio:",
-          "text1": "Il trading di strumenti a leva come i derivati comporta un alto livello di rischio e potrebbe non essere adatto a tutti gli investitori. Potresti perdere tutto o parte del capitale investito. Ti preghiamo di assicurarti di comprendere appieno i rischi coinvolti, considera il tuo livello di esperienza, i tuoi obiettivi di investimento e, se necessario, consulta un consiglio finanziario indipendente prima di fare trading. Il trading a margine comporta la possibilità di profitti significativi ma anche di perdite significative.",
-          "text2": "Assicurati di familiarizzare con tutti i rischi correlati e adotta i passi appropriati per gestirli efficacemente. Per maggiori informazioni, consulta il nostro Avviso di Divulgazione dei Rischi."
-      },
-      "geo": {
-          "title": "Restrizioni Geografiche:",
-          "text": "Le informazioni su questo sito web non sono destinate ai residenti dei seguenti paesi o territori: Afghanistan, Albania, Algeria, Angola, Australia, Bahrein, Bangladesh, Barbados, Bielorussia, Benin, Bhutan, Bosnia ed Erzegovina, Botswana, Brasile, Burkina Faso, Burundi, Cambogia, Camerun, Capo Verde, Repubblica Centrafricana, Ciad, Cina, Comore, Repubblica Democratica del Congo, regione della Crimea, Cuba, Gibuti, Egitto, Eritrea, Etiopia, Figi, Gabon, Ghana, Guinea, Haiti, Iran, Iraq, Giamaica, Giordania, Kenya, Kosovo, Kuwait, Laos, Libano, Liberia, Libia, Macedonia del Nord, Madagascar, Malawi, Maldive, Mali, Marocco, Myanmar, Namibia, Nepal, Niger, Nigeria, Corea del Nord, Cipro del Nord, Oman, Pakistan, Palau, Puerto Rico, Qatar, Russia, Ruanda, Somalia, Senegal, Sudan del Sud, Sudan, Siria, Tanzania, Togo, Trinidad e Tobago, Tunisia, Tuvalu, Regno Unito, Stati Uniti, Vanuatu, Città del Vaticano, Yemen, Zambia e Zimbabwe."
-      },
-      "legal_notice": "L'uso di questo sito web e dei servizi non è destinato a nessuna persona in qualsiasi giurisdizione in cui tale uso sarebbe contrario alle leggi o regolamenti locali.",
-      "poster": {
-          "title": "Inizia a Investire in Modo Intelligente Oggi",
-          "button": "Inizia Ora"
-      },
-      "copy": "ST Trader 2025",
-      "privacy": "Informativa sulla Privacy"
-  },
-  "cookies": {
-      "title": "Valorizziamo la Tua Privacy",
-      "text": "Utilizziamo i cookie per personalizzare i contenuti, analizzare il traffico e migliorare la tua esperienza. Puoi gestire le tue preferenze o accettare tutto per continuare a godere della piena funzionalità.",
-      "functional": "<span>Accetta</span> solo funzionali",
-      "all": "Accetta Tutti <span>Cookie</span>"
-  },
-  "mobmenu": {
-      "back": "Indietro",
-      "button": "Inizia Ora",
-      "note": "La registrazione richiede <span>meno di 1 minuto</span>"
-  }
+    "runline": {
+        "item_1": "Piattaforma di trading facile da usare per tutti",
+        "item_2": "Registrazione gratuita e deposito iniziale minimo",
+        "item_3": "Trading sui mercati globali, sempre e ovunque",
+        "item_4": "Prelievi rapidi e pagamenti sicuri"
+    },
+    "trade": {
+        "title": "COSA PUOI SCAMBIARE CON ST TRADER?",
+        "button": "Inizia Ora",
+        "items": {
+            "stocks": {
+                "title": "Azioni",
+                "text": "Fai trading sulle azioni delle principali aziende di Stati Uniti, Regno Unito ed Europa – tra cui Apple, Tesla, Amazon e molte altre."
+            },
+            "indices": {
+                "title": "Indici",
+                "text": "Segui e fai trading sui principali indici globali – come S&P 500, NASDAQ, DAX e FTSE 100."
+            },
+            "etfs": {
+                "title": "ETF",
+                "text": "Diversifica il tuo portafoglio con ETF composti da panieri di asset selezionati di prim'ordine"
+            },
+            "commodities": {
+                "title": "Materie prime",
+                "text": "Accedi al trading di oro, petrolio, argento e altre delle materie prime più scambiate al mondo."
+            },
+            "energy": {
+                "title": "Mercati energetici",
+                "text": "Segui i trend globali dell’energia e fai trading su petrolio, gas naturale e altre risorse chiave."
+            }
+        }
+    },
+    "works": {
+        "title_html": "COME FUNZIONA IN <span>3 SEMPLICI PASSAGGI</span>",
+        "steps": {
+            "step1": "Crea il tuo account gratuito",
+            "step2": "Effettua un deposito a partire da 250 €",
+            "step3": "Inizia a fare trading a modo tuo"
+        }
+    },
+    "trust": {
+        "title": "PERCHÉ I TRADER SI FIDANO DI ST TRADER",
+        "items": {
+            "item1": {
+                "title": "+1700 strumenti",
+                "text": "Fai trading su azioni, indici, metalli e altro – tutto da un solo account."
+            },
+            "item2": {
+                "title": "fino a 1 milione di $",
+                "text": "Copertura assicurativa con Lloyd’s di Londra."
+            },
+            "item3": {
+                "title": "100 000+ trader",
+                "text": "Entra in una community globale di trader attivi con ST Trader."
+            },
+            "item4": {
+                "title": "Spread 0.0",
+                "text": "Massima efficienza nei costi per un trading più intelligente."
+            }
+        }
+    },
+    "awarded": {
+        "title": "PREMIATI PER L’INNOVAZIONE NEL TRADING",
+        "items": {
+            "item1": {
+                "title": "Miglior Esperienza di Trading",
+                "text": "Premiato da Global Business Outlook — 2024"
+            },
+            "item2": {
+                "title": "Miglior Piattaforma di Trading Mobile",
+                "text": "Premiato da Fintech Awards — 2023"
+            },
+            "item3": {
+                "title": "Broker a Crescita Più Rapida",
+                "text": "Premiato da World Finance — 2024"
+            },
+            "item4": {
+                "title": "Miglior Nuova Tecnologia per il Trading",
+                "text": "Premiato da Financial Innovation Awards — 2022"
+            }
+        }
+    },
+    "commision": {
+        "subtitle": "Costi inferiori. Potenziale superiore.",
+        "title": "Commissioni $0",
+        "features": {
+            "feature1": "Commissioni $0",
+            "feature2": "Spread da 0.0 pip",
+            "feature3": "Leverage elevato 1:500",
+            "feature4": "Nessuna tassa di deposito"
+        }
+    },
+    "deposits": {
+        "title": "DEPOSITI VELOCI E SICURI",
+        "text": "Ricarica il tuo account istantaneamente utilizzando metodi di pagamento globali affidabili"
+    },
+    "grow": {
+        "title": "QUALI RISULTATI PUOI OTTENERE CON IL TUO DEPOSITO?",
+        "button": "Prova la Demo della Piattaforma",
+        "cards": {
+            "country_italy": "Italia",
+            "country_germany": "Germania",
+            "country_spain": "Spagna",
+            "minday_20": "20 min/giorno",
+            "minday_30": "30 min/giorno",
+            "minday_50": "50 min/giorno",
+            "starting": "Deposito Iniziale",
+            "result": "Risultato a 30 Giorni",
+            "growth": "Crescita"
+        }
+    },
+    "type": {
+        "title": "SCELGI IL TUO TIPO DI ACCOUNT",
+        "subtitle": "Due tipi di account flessibili adattati ai tuoi obiettivi e abitudini di trading",
+        "note": "Basta registrarsi - <span>è gratuito</span>",
+        "standard": {
+            "title": "STANDARD",
+            "button": "APRI UN ACCOUNT STANDARD ORA",
+            "features": {
+                "feature1": "Spread a partire da <b>1.0 pip</b>",
+                "feature2": "Esecuzione <b>ultra-veloce</b>",
+                "feature3": "Nessun <b>Dealing Desk</b>",
+                "feature4": "Ambiente di trading <b>trasparente</b>",
+                "feature5": "Protezione da saldo negativo <b>garantita</b>",
+                "feature6": "<b>Nessuna commissione</b> sulle negoziazioni (eccetto indici)"
+            }
+        },
+        "ecn": {
+            "title": "ECN",
+            "button": "APRI UN ACCOUNT ECN ORA",
+            "features": {
+                "feature1": "Spread a partire da <b>0.0 pip</b>",
+                "feature2": "Esecuzione <b>ultra-veloce</b>",
+                "feature3": "Analisi di mercato <b>approfondite</b>",
+                "feature4": "Ambiente di trading <b>trasparente</b>",
+                "feature5": "Protezione da saldo negativo <b>garantita</b>",
+                "feature6": "<b>Commissione:</b> Sì"
+            }
+        }
+    },
+    "platforms": {
+        "title": "FAI TRADING SU PIATTAFORME AFFIDABILI",
+        "subtitle": "Accedi ai mercati da qualsiasi dispositivo — veloce, flessibile e adatto ai principianti",
+        "features": {
+            "feature1": {
+                "title": "Mobile, desktop e web",
+                "text": "Fai trading ovunque e in qualsiasi momento — dal tuo telefono, tablet o PC"
+            },
+            "feature2": {
+                "title": "Interfaccia facile da usare",
+                "text": "Layout pulito e intuitivo con funzionalità potenti a portata di tap"
+            },
+            "feature3": {
+                "title": "Grafici avanzati e trading con un clic",
+                "text": "Segui le tendenze, analizza i movimenti e piazza ordini in pochi secondi"
+            }
+        }
+    },
+    "reviews": {
+        "title": "COSA DICONO I VERI UTENTI DI ST TRADER",
+        "subtitle": "Migliaia di trader si fidano di noi — ecco perché",
+        "rating": "<span>4.8<span>/5</span></span> (Basato su 1 325 recensioni)",
+        "show_more": "Mostra di più",
+        "review1": {
+            "name": "Lucas T. (Germania)",
+            "text": "Ho iniziato con €250 solo per provarlo. Dopo 3 settimane, avevo €412 sul mio saldo — e non devo stare tutto il giorno davanti ai grafici."
+        },
+        "review2": {
+            "name": "Sofia M. (Spagna)",
+            "text1": "Ho provato diverse piattaforme prima, ma questa finalmente mi ha convinto.",
+            "text2": "Design pulito, depositi rapidi, e il mio primo prelievo di €180 è stato accreditato in meno di un giorno."
+        },
+        "review3": {
+            "name": "Daniel K. (Svezia)",
+            "text": "Ero scettico all'inizio, ma si è rivelato affidabile. Faccio trading durante le pause pranzo e ho già ritirato i profitti due volte."
+        },
+        "review4": {
+            "name": "Mia S. (Austria)",
+            "text": "Davvero semplice da iniziare. Il team di supporto mi ha aiutato a capire la leva, e ora sono sicuro con ogni trade."
+        }
+    },
+    "faq": {
+        "title": "Domande frequenti",
+        "subtitle": "Nuovo nel trading? Abbiamo le risposte",
+        "q1": "Cos'è ST Trader e come funziona?",
+        "a1": "ST Trader è una piattaforma online che ti dà accesso ai mercati globali. Puoi aprire un account, depositare fondi e iniziare a fare trading con strumenti progettati per tutti i livelli di esperienza.",
+        "q2": "Quanto denaro mi serve per iniziare?",
+        "a2": "Puoi aprire un account con un minimo di €50, ma ti consigliamo di iniziare con almeno €250 per sfruttare appieno le funzionalità e gli strumenti della piattaforma.",
+        "q3": "Devo essere un esperto di trading?",
+        "a3": "Assolutamente no. ST Trader è progettato per essere adatto ai principianti, con interfacce semplici e accesso a supporto e tutorial.",
+        "q4": "Cosa posso scambiare sulla piattaforma?",
+        "a4": "Puoi scambiare azioni, indici, materie prime, criptovalute e altro — tutto da un unico account.",
+        "q5": "ST Trader è una piattaforma sicura e regolamentata?",
+        "a5": "Sì, i tuoi fondi sono protetti e collaboriamo con fornitori di liquidità regolamentati e processori di pagamento assicurati.",
+        "q6": "Come deposito denaro?",
+        "a6": "I depositi possono essere effettuati istantaneamente tramite carta di credito, bonifico bancario o altri metodi di pagamento affidabili elencati nella tua area account.",
+        "q7": "Quanto velocemente posso ritirare i miei profitti?",
+        "a7": "I prelievi vengono solitamente elaborati entro 24 ore, a seconda del metodo di pagamento e dello stato della verifica."
+    },
+    "copytop": {
+        "title": "Investi in Modo Intelligente: Copia i Migliori Trader Istantaneamente",
+        "text": "ST Trader ti dà accesso ai mercati più popolari del mondo con costi bassi, esecuzione rapida e nessuna tassa nascosta",
+        "button": "Inizia il Copy Trading"
+    },
+    "footer": {
+        "nav": {
+            "features": "Caratteristiche",
+            "how": "Come Funziona",
+            "why": "Perché ST Trader",
+            "testimonials": "Testimonianze",
+            "faq": "FAQ"
+        },
+        "company_info": "Il sito web è di proprietà e gestito da ST Trader Ltd, un'azienda registrata a Saint Lucia come International Business Company (IBC) con numero di registrazione 2023-00987. L'ufficio registrato dell'azienda si trova al Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, LC01 401, Saint Lucia. L'indirizzo operativo è Mariano Roque Alonso Street 1344, Asunción, 001005, Paraguay.",
+        "risk": {
+            "title": "Avviso di Rischio:",
+            "text1": "Il trading di strumenti a leva come i derivati comporta un alto livello di rischio e potrebbe non essere adatto a tutti gli investitori. Potresti perdere tutto o parte del capitale investito. Ti preghiamo di assicurarti di comprendere appieno i rischi coinvolti, considera il tuo livello di esperienza, i tuoi obiettivi di investimento e, se necessario, consulta un consiglio finanziario indipendente prima di fare trading. Il trading a margine comporta la possibilità di profitti significativi ma anche di perdite significative.",
+            "text2": "Assicurati di familiarizzare con tutti i rischi correlati e adotta i passi appropriati per gestirli efficacemente. Per maggiori informazioni, consulta il nostro Avviso di Divulgazione dei Rischi."
+        },
+        "geo": {
+            "title": "Restrizioni Geografiche:",
+            "text": "Le informazioni su questo sito web non sono destinate ai residenti dei seguenti paesi o territori: Afghanistan, Albania, Algeria, Angola, Australia, Bahrein, Bangladesh, Barbados, Bielorussia, Benin, Bhutan, Bosnia ed Erzegovina, Botswana, Brasile, Burkina Faso, Burundi, Cambogia, Camerun, Capo Verde, Repubblica Centrafricana, Ciad, Cina, Comore, Repubblica Democratica del Congo, regione della Crimea, Cuba, Gibuti, Egitto, Eritrea, Etiopia, Figi, Gabon, Ghana, Guinea, Haiti, Iran, Iraq, Giamaica, Giordania, Kenya, Kosovo, Kuwait, Laos, Libano, Liberia, Libia, Macedonia del Nord, Madagascar, Malawi, Maldive, Mali, Marocco, Myanmar, Namibia, Nepal, Niger, Nigeria, Corea del Nord, Cipro del Nord, Oman, Pakistan, Palau, Puerto Rico, Qatar, Russia, Ruanda, Somalia, Senegal, Sudan del Sud, Sudan, Siria, Tanzania, Togo, Trinidad e Tobago, Tunisia, Tuvalu, Regno Unito, Stati Uniti, Vanuatu, Città del Vaticano, Yemen, Zambia e Zimbabwe."
+        },
+        "legal_notice": "L'uso di questo sito web e dei servizi non è destinato a nessuna persona in qualsiasi giurisdizione in cui tale uso sarebbe contrario alle leggi o regolamenti locali.",
+        "poster": {
+            "title": "Inizia a Investire in Modo Intelligente Oggi",
+            "button": "Inizia Ora"
+        },
+        "copy": "ST Trader 2025",
+        "privacy": "Informativa sulla Privacy",
+        "cookies": "Cookie Policy",
+        "terms": "Terms of Use"
+    },
+    "cookies": {
+        "title": "Valorizziamo la Tua Privacy",
+        "text": "Utilizziamo i cookie per personalizzare i contenuti, analizzare il traffico e migliorare la tua esperienza. Puoi gestire le tue preferenze o accettare tutto per continuare a godere della piena funzionalità.",
+        "functional": "<span>Accetta</span> solo funzionali",
+        "all": "Accetta Tutti <span>Cookie</span>"
+    },
+    "mobmenu": {
+        "back": "Indietro",
+        "button": "Inizia Ora",
+        "note": "La registrazione richiede <span>meno di 1 minuto</span>"
+    }
 }

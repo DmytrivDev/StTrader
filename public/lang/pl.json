@@ -227,7 +227,9 @@
             "button": "Zacznij Teraz"
         },
         "copy": "ST Trader 2025",
-        "privacy": "Polityka Prywatności"
+        "privacy": "Polityka Prywatności",
+        "cookies": "Cookie Policy",
+        "terms": "Terms of Use"
     },
     "cookies": {
         "title": "Cenimy Twoją Prywatność",
@@ -241,4 +243,3 @@
         "note": "Rejestracja zajmuje <span>mniej niż 1 minutę</span>"
     }
 }
-

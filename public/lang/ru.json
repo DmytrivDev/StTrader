@@ -227,7 +227,9 @@
             "button": "Начать сейчас"
         },
         "copy": "ST Trader 2025",
-        "privacy": "Политика конфиденциальности"
+        "privacy": "Политика конфиденциальности",
+        "cookies": "Cookie Policy",
+        "terms": "Terms of Use"
     },
     "cookies": {
         "title": "Мы ценим вашу конфиденциальность",
