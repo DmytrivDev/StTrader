@@ -16,8 +16,32 @@
 }
 
 .reviews__wrapp {
+  &.more-block {
+    .card-review {
+      &:nth-child(n + 5) {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+    &.isOpened {
+      .card-review {
+        &:nth-child(n + 5) {
+          display: block;
+          visibility: visible;
+        }
+      }
+    }
+    &.isAnim {
+      .card-review {
+        &:nth-child(n + 5) {
+          opacity: 1;
+        }
+      }
+    }
+  }
   .addMore {
-    display: none;
+    margin: 1.25rem auto 0 auto;
   }
 }
 .reviews__cards {
@@ -40,7 +64,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.75rem 0;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
   p {
     border-radius: 1rem 1rem 1rem 0px;
     background-color: rgba(255, 255, 255, 0.2);
@@ -51,7 +75,7 @@
   display: flex;
   align-items: start;
   gap: 0 0.75rem;
-  padding-top: 1rem;
+  padding-top: 0.875rem;
   border-top: 0.0625rem solid var(--cn2);
 }
 .card-review__ava {
@@ -95,7 +119,7 @@
 .card-review__media {
   position: relative;
   overflow: hidden;
-  padding-top: 60.7%;
+  padding-top: 101.8%;
   border-radius: 1rem 1rem 1rem 0;
   margin-bottom: 1.1875rem;
 }
@@ -161,30 +185,6 @@
   }
 
   .reviews__wrapp {
-    &.more-block {
-      .card-review {
-        &:nth-child(n + 4) {
-          display: none;
-          opacity: 0;
-          visibility: hidden;
-        }
-      }
-      &.isOpened {
-        .card-review {
-          &:nth-child(n + 4) {
-            display: block;
-            visibility: visible;
-          }
-        }
-      }
-      &.isAnim {
-        .card-review {
-          &:nth-child(n + 4) {
-            opacity: 1;
-          }
-        }
-      }
-    }
     .addMore {
       display: block;
       margin: 1.75rem auto 0 auto;
