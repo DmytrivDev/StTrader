@@ -124,16 +124,19 @@
   .contact {
     padding: 4rem 0 6rem 0;
     min-height: auto;
+    padding-bottom: 0 !important;
   }
   .contact__body {
     align-items: center;
     justify-content: stretch;
     flex-direction: column;
+    padding-bottom: 19rem;
   }
   .contact__content {
     position: relative;
-    padding-bottom: 19.25rem;
+    padding-bottom: 4rem;
     max-width: 100%;
+    position: static;
 
     &::before {
       bottom: -10.5rem;
